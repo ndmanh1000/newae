@@ -184,7 +184,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20 gap-2 sm:gap-4">
             {/* Logo with Smooth Scroll to Top */}
-            <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+            <div className="flex items-center gap-1.5 sm:gap-3 min-w-0">
               <a
                 href="#"
                 onClick={handleLogoClick}
@@ -192,11 +192,11 @@ export default function Header() {
                 title="KEYOWA - Về đầu trang"
                 aria-label="Về đầu trang"
               >
-                <span className="font-serif text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1.5">
+                <span className="font-serif text-lg sm:text-2xl lg:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1 sm:gap-1.5">
                   KEYOWA
-                  <span className="inline-block w-2 h-2 rounded-full bg-emerald-600"></span>
+                  <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-600"></span>
                 </span>
-                <span className="text-[8px] sm:text-[10px] uppercase tracking-[0.1em] sm:tracking-[0.2em] text-[#697E72] font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
+                <span className="text-[7.5px] sm:text-[10px] uppercase tracking-[0.06em] sm:tracking-[0.2em] text-[#697E72] font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
                   Cold-Pressed Avocado Oil
                 </span>
               </a>
@@ -238,28 +238,28 @@ export default function Header() {
 
             {/* Right Actions */}
             <div className="flex items-center gap-1 sm:gap-2 lg:gap-3 flex-shrink-0">
-              {/* Language Switcher Dropdown (Shown on desktop & tablet; mobile has language selector in the dropdown menu) */}
-              <LanguageSwitcher className="hidden sm:block" />
+              {/* Language Switcher Dropdown (Visible on all devices, compact on mobile) */}
+              <LanguageSwitcher />
 
               {/* Mobile Quick Search Button */}
               <button
                 onClick={() => setSearchOpen(true)}
-                className="lg:hidden p-2 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] transition-colors flex-shrink-0"
+                className="lg:hidden p-1.5 sm:p-2 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] transition-colors flex-shrink-0"
                 aria-label="Tìm kiếm"
               >
-                <Search className="w-5 h-5" />
+                <Search className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
 
               {/* Cart Trigger Button with micro-bounce */}
               <button
                 onClick={openCart}
                 id="cart-button"
-                className="group relative p-2 sm:p-2.5 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] hover:scale-105 active:scale-95 transition-all duration-200 flex-shrink-0"
+                className="group relative p-1.5 sm:p-2.5 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] hover:scale-105 active:scale-95 transition-all duration-200 flex-shrink-0"
                 aria-label="Giỏ hàng"
               >
-                <ShoppingBag className="w-5 h-5 group-hover:-rotate-12 transition-transform duration-300" />
+                <ShoppingBag className="w-4 h-4 sm:w-5 sm:h-5 group-hover:-rotate-12 transition-transform duration-300" />
                 {totalItems > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-coral text-white text-[11px] font-bold w-5 h-5 rounded-full flex items-center justify-center shadow-md animate-bounce ring-2 ring-white">
+                  <span className="absolute -top-1 -right-1 bg-coral text-white text-[10px] sm:text-[11px] font-bold w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center shadow-md animate-bounce ring-1.5 sm:ring-2 ring-white">
                     {totalItems}
                   </span>
                 )}
@@ -278,13 +278,13 @@ export default function Header() {
               {/* Mobile menu button (Hamburger 3-bar) */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="lg:hidden p-2 text-[#1B3B2B] hover:bg-[#EFE8DC] rounded-xl flex-shrink-0 active:scale-95 transition-all"
+                className="lg:hidden p-1.5 sm:p-2 text-[#1B3B2B] hover:bg-[#EFE8DC] rounded-xl flex-shrink-0 active:scale-95 transition-all"
                 aria-label="Menu"
               >
                 {mobileMenuOpen ? (
-                  <X className="w-6 h-6" />
+                  <X className="w-5 h-5 sm:w-6 sm:h-6" />
                 ) : (
-                  <Menu className="w-6 h-6" />
+                  <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
                 )}
               </button>
             </div>
@@ -293,17 +293,9 @@ export default function Header() {
 
         {/* Mobile menu dropdown */}
         {mobileMenuOpen && (
-          <div className="lg:hidden bg-[#FAF8F5] border-b border-[#EBE4D8] px-4 pt-3 pb-6 space-y-4 animate-fade-in">
-            {/* Language Switcher in Mobile Menu */}
-            <div>
-              <div className="text-[11px] font-bold uppercase tracking-wider text-[#798C7F] mb-1.5">
-                Ngôn ngữ / Language:
-              </div>
-              <LanguageSwitcher isMobile={true} />
-            </div>
-
+          <div className="lg:hidden bg-[#FAF8F5] border-b border-[#EBE4D8] px-4 pt-3 pb-6 space-y-4 animate-fade-in shadow-lg">
             {/* Mobile Nav Items */}
-            <div className="border-t border-[#EAE2D5] pt-3 space-y-1">
+            <div className="space-y-1">
               {navItems.map((item) => {
                 const isActive = activeNav === item.id;
                 return (
@@ -327,7 +319,7 @@ export default function Header() {
               <a
                 href="#products"
                 onClick={(e) => handleNavClick(e, "#products", "products")}
-                className="w-full inline-flex justify-center items-center gap-2 bg-[#E55B38] text-white font-semibold py-3 rounded-xl shadow"
+                className="w-full inline-flex justify-center items-center gap-2 bg-[#E55B38] text-white font-semibold py-3 rounded-xl shadow active:scale-[0.98] transition-all"
               >
                 {t.hero.ctaPrimary}
               </a>

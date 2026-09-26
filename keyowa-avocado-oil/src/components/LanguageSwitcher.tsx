@@ -63,13 +63,13 @@ export default function LanguageSwitcher({
     <div className={`relative ${className}`} ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 text-xs font-semibold text-[#3B4E42] border border-[#DDD5C7] rounded-full px-3 py-1.5 bg-[#F4EFE6]/80 hover:bg-[#EBE3D5] hover:text-[#142A1E] transition-all duration-200 shadow-sm"
+        className="flex items-center gap-1 sm:gap-2 text-[11px] sm:text-xs font-semibold text-[#3B4E42] border border-[#DDD5C7] rounded-full px-2 sm:px-3 py-1 sm:py-1.5 bg-[#F4EFE6]/80 hover:bg-[#EBE3D5] hover:text-[#142A1E] transition-all duration-200 shadow-2xs"
         aria-label="Chọn ngôn ngữ / Select Language"
       >
-        <span className="text-sm">{currentOption.flag}</span>
+        <span className="text-xs sm:text-sm">{currentOption.flag}</span>
         <span className="uppercase tracking-wider">{currentOption.code}</span>
         <ChevronDown
-          className={`w-3.5 h-3.5 text-[#6E8075] transition-transform duration-200 ${
+          className={`w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#6E8075] transition-transform duration-200 ${
             isOpen ? "rotate-180" : ""
           }`}
         />

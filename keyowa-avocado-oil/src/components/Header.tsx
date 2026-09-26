@@ -116,7 +116,8 @@ export default function Header() {
 
     const element = document.querySelector(href);
     if (element) {
-      const navHeight = 78;
+      const navHeight =
+        typeof window !== "undefined" && window.innerWidth < 640 ? 64 : 78;
       const elementPosition =
         element.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
@@ -180,10 +181,10 @@ export default function Header() {
             : "bg-[#FAF8F5] border-b border-[#EFE8DD]"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20 gap-4">
+        <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16 sm:h-20 gap-2 sm:gap-4">
             {/* Logo with Smooth Scroll to Top */}
-            <div className="flex items-center gap-3 flex-shrink-0">
+            <div className="flex items-center gap-2 sm:gap-3 min-w-0">
               <a
                 href="#"
                 onClick={handleLogoClick}
@@ -191,11 +192,11 @@ export default function Header() {
                 title="KEYOWA - Về đầu trang"
                 aria-label="Về đầu trang"
               >
-                <span className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1.5">
+                <span className="font-serif text-xl sm:text-2xl lg:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1.5">
                   KEYOWA
                   <span className="inline-block w-2 h-2 rounded-full bg-emerald-600"></span>
                 </span>
-                <span className="text-[10px] uppercase tracking-[0.2em] text-[#697E72] font-semibold -mt-1">
+                <span className="text-[8px] sm:text-[10px] uppercase tracking-[0.1em] sm:tracking-[0.2em] text-[#697E72] font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
                   Cold-Pressed Avocado Oil
                 </span>
               </a>
@@ -236,14 +237,14 @@ export default function Header() {
             </nav>
 
             {/* Right Actions */}
-            <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-              {/* Language Switcher Dropdown (4 Languages: VN, EN, JA, ZH) */}
-              <LanguageSwitcher />
+            <div className="flex items-center gap-1 sm:gap-2 lg:gap-3 flex-shrink-0">
+              {/* Language Switcher Dropdown (Shown on desktop & tablet; mobile has language selector in the dropdown menu) */}
+              <LanguageSwitcher className="hidden sm:block" />
 
               {/* Mobile Quick Search Button */}
               <button
                 onClick={() => setSearchOpen(true)}
-                className="lg:hidden p-2 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] transition-colors"
+                className="lg:hidden p-2 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] transition-colors flex-shrink-0"
                 aria-label="Tìm kiếm"
               >
                 <Search className="w-5 h-5" />
@@ -253,7 +254,7 @@ export default function Header() {
               <button
                 onClick={openCart}
                 id="cart-button"
-                className="group relative p-2.5 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] hover:scale-105 active:scale-95 transition-all duration-200"
+                className="group relative p-2 sm:p-2.5 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] hover:scale-105 active:scale-95 transition-all duration-200 flex-shrink-0"
                 aria-label="Giỏ hàng"
               >
                 <ShoppingBag className="w-5 h-5 group-hover:-rotate-12 transition-transform duration-300" />
@@ -268,16 +269,16 @@ export default function Header() {
               <a
                 href="#products"
                 onClick={(e) => handleNavClick(e, "#products", "products")}
-                className="btn-shimmer btn-glow-coral group hidden sm:inline-flex items-center gap-2 bg-[#E55B38] hover:bg-[#cf4c2a] text-white text-xs sm:text-sm font-bold px-5 py-2.5 rounded-full shadow-md hover:scale-105 active:scale-95 transition-all duration-300"
+                className="btn-shimmer btn-glow-coral group hidden md:inline-flex items-center gap-2 bg-[#E55B38] hover:bg-[#cf4c2a] text-white text-xs sm:text-sm font-bold px-4 lg:px-5 py-2 sm:py-2.5 rounded-full shadow-md hover:scale-105 active:scale-95 transition-all duration-300 flex-shrink-0"
               >
                 <span>{t.nav.buyNow}</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
               </a>
 
-              {/* Mobile menu button */}
+              {/* Mobile menu button (Hamburger 3-bar) */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="lg:hidden p-2 text-[#1B3B2B] hover:bg-[#EFE8DC] rounded-lg"
+                className="lg:hidden p-2 text-[#1B3B2B] hover:bg-[#EFE8DC] rounded-xl flex-shrink-0 active:scale-95 transition-all"
                 aria-label="Menu"
               >
                 {mobileMenuOpen ? (

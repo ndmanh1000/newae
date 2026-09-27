@@ -173,7 +173,7 @@ export default function ChefCollectionSection() {
             <div className="flex items-center gap-4 pt-4 border-t border-emerald-500/20">
               <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-amber-400/80 shadow-md flex-shrink-0">
                 <Image
-                  src="/images/story-chef.jpg"
+                  src="/images/story-chef.webp"
                   alt={data.chefName}
                   fill
                   className="object-cover"

@@ -133,7 +133,7 @@ export default function WelcomeVoucherModal() {
         <div className="relative md:col-span-6 h-56 sm:h-72 md:h-auto min-h-[220px] md:min-h-[520px] overflow-hidden flex flex-col justify-between p-5 sm:p-6 text-white bg-[#102017]">
           {/* Background Steak Drizzle Image */}
           <Image
-            src="/images/modal-steak.jpg"
+            src="/images/modal-steak.webp"
             alt="Món Áp Chảo Thượng Hạng Dầu Bơ Keyavo"
             fill
             priority

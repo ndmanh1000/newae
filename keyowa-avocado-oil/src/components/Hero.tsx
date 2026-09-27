@@ -126,7 +126,7 @@ export default function Hero() {
               <div className="relative rounded-3xl overflow-hidden bg-white p-3 shadow-2xl shadow-[#1B3B2B]/10 border border-[#EBE4D8] transition-transform duration-500 group-hover:-translate-y-1">
                 <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-[#F6F3EC]">
                   <Image
-                    src="/images/hero-bottle.jpg"
+                    src="/images/hero-bottle.webp"
                     alt="Chai Dầu Bơ Ép Lạnh Nguyên Chất KEYOWA"
                     fill
                     priority

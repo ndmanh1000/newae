@@ -25,6 +25,12 @@ export default function Header() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
+      // Dedicated /recipes subpage active state
+      if (typeof window !== "undefined" && window.location.pathname === "/recipes") {
+        setActiveNav("recipes");
+        return;
+      }
+
       // Top of page
       if (window.scrollY < 200) {
         setActiveNav("about");
@@ -102,6 +108,16 @@ export default function Header() {
     id: string
   ) => {
     e.preventDefault();
+    if (typeof window !== "undefined" && window.location.pathname === "/recipes") {
+      if (id === "recipes") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        if (mobileMenuOpen) setMobileMenuOpen(false);
+        return;
+      }
+      window.location.href = `/${href}`;
+      return;
+    }
+
     if (typeof window !== "undefined" && window.location.pathname !== "/") {
       window.location.href = `/${href}`;
       return;
@@ -181,29 +197,29 @@ export default function Header() {
             : "bg-[#FAF8F5] border-b border-[#EFE8DD]"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 sm:h-20 gap-2 sm:gap-4">
-            {/* Logo with Smooth Scroll to Top */}
-            <div className="flex items-center gap-1.5 sm:gap-3 min-w-0">
+        <div className="max-w-[1440px] mx-auto px-3.5 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16 sm:h-20 gap-2 sm:gap-4 lg:gap-6">
+            {/* Logo with Smooth Scroll to Top - flex-shrink-0 prevents any overlap */}
+            <div className="flex items-center gap-1.5 sm:gap-3 flex-shrink-0 z-10">
               <a
                 href="#"
                 onClick={handleLogoClick}
-                className="flex flex-col group cursor-pointer"
+                className="flex flex-col group cursor-pointer select-none"
                 title="KEYOWA - Về đầu trang"
                 aria-label="Về đầu trang"
               >
-                <span className="font-serif text-lg sm:text-2xl lg:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1 sm:gap-1.5">
+                <span className="font-serif text-lg sm:text-2xl lg:text-2xl xl:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                   KEYOWA
-                  <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-600"></span>
+                  <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-600 flex-shrink-0"></span>
                 </span>
-                <span className="text-[7.5px] sm:text-[10px] uppercase tracking-[0.06em] sm:tracking-[0.2em] text-[#697E72] font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
+                <span className="text-[7.5px] sm:text-[9.5px] xl:text-[10px] uppercase tracking-[0.08em] sm:tracking-[0.18em] text-[#697E72] font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
                   Cold-Pressed Avocado Oil
                 </span>
               </a>
             </div>
 
-            {/* Desktop Navigation with Active Lime Pill Marking (as in screenshot) */}
-            <nav className="hidden lg:flex items-center gap-1 xl:gap-1.5 text-[13px] font-medium text-[#384C40] bg-[#F4EFE6]/60 p-1.5 rounded-full border border-[#E8E0D2]">
+            {/* Desktop Navigation with Active Lime Pill Marking (Optimized for xl+ displays) */}
+            <nav className="hidden xl:flex items-center gap-0.5 xl:gap-1 2xl:gap-1.5 text-[12px] xl:text-[12.5px] 2xl:text-[13px] font-medium text-[#384C40] bg-[#F4EFE6]/70 p-1.5 rounded-full border border-[#E8E0D2] shadow-xs flex-shrink-0">
               {navItems.map((item) => {
                 const isActive = activeNav === item.id;
                 return (
@@ -213,8 +229,8 @@ export default function Header() {
                     onClick={(e) => handleNavClick(e, item.href, item.id)}
                     className={`transition-all duration-200 rounded-full whitespace-nowrap ${
                       isActive
-                        ? "bg-[#D4F666] text-[#142A1E] font-bold px-3.5 sm:px-4 py-1.5 shadow-xs"
-                        : "text-[#4A5D52] hover:text-[#142A1E] hover:bg-[#EAE4D7]/70 px-3 py-1.5"
+                        ? "bg-[#D4F666] text-[#142A1E] font-bold px-3 xl:px-3.5 2xl:px-4 py-1.5 shadow-xs"
+                        : "text-[#4A5D52] hover:text-[#142A1E] hover:bg-[#EAE4D7]/70 px-2.5 xl:px-3 2xl:px-3.5 py-1.5"
                     }`}
                   >
                     {item.label}
@@ -225,26 +241,26 @@ export default function Header() {
               {/* Quick Search Button Pill (Matching Screenshot: 🔍 Tìm kiếm... ⌘K) */}
               <button
                 onClick={() => setSearchOpen(true)}
-                className="flex items-center gap-2 bg-white/80 hover:bg-white text-[#63776B] hover:text-[#142A1E] px-3.5 py-1.5 rounded-full text-xs transition-all border border-[#DFD8CC] ml-1 shadow-2xs"
+                className="flex items-center gap-1.5 2xl:gap-2 bg-white/80 hover:bg-white text-[#63776B] hover:text-[#142A1E] px-2.5 2xl:px-3.5 py-1.5 rounded-full text-xs transition-all border border-[#DFD8CC] ml-0.5 shadow-2xs flex-shrink-0"
                 title={`${t.nav.searchAction} (⌘K / Ctrl+K)`}
               >
-                <Search className="w-3.5 h-3.5 text-gray-500" />
-                <span className="hidden xl:inline text-[12px]">{t.nav.searchPlaceholder}</span>
-                <kbd className="hidden sm:inline-block font-sans text-[10px] bg-[#FAF8F5] text-gray-500 px-1.5 py-0.5 rounded shadow-2xs border border-gray-200 font-mono">
+                <Search className="w-3.5 h-3.5 text-gray-500 flex-shrink-0" />
+                <span className="hidden 2xl:inline text-[12px] whitespace-nowrap">{t.nav.searchPlaceholder}</span>
+                <kbd className="hidden xl:inline-block font-sans text-[10px] bg-[#FAF8F5] text-gray-500 px-1.5 py-0.5 rounded shadow-2xs border border-gray-200 font-mono">
                   ⌘K
                 </kbd>
               </button>
             </nav>
 
             {/* Right Actions */}
-            <div className="flex items-center gap-1 sm:gap-2 lg:gap-3 flex-shrink-0">
+            <div className="flex items-center gap-1.5 sm:gap-2 xl:gap-3 flex-shrink-0">
               {/* Language Switcher Dropdown (Visible on all devices, compact on mobile) */}
               <LanguageSwitcher />
 
-              {/* Mobile Quick Search Button */}
+              {/* Mobile & Tablet Quick Search Button */}
               <button
                 onClick={() => setSearchOpen(true)}
-                className="lg:hidden p-1.5 sm:p-2 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] transition-colors flex-shrink-0"
+                className="xl:hidden p-1.5 sm:p-2 rounded-full text-[#1B3B2B] hover:bg-[#EFE8DC] transition-colors flex-shrink-0"
                 aria-label="Tìm kiếm"
               >
                 <Search className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -269,16 +285,16 @@ export default function Header() {
               <a
                 href="#products"
                 onClick={(e) => handleNavClick(e, "#products", "products")}
-                className="btn-shimmer btn-glow-coral group hidden md:inline-flex items-center gap-2 bg-[#E55B38] hover:bg-[#cf4c2a] text-white text-xs sm:text-sm font-bold px-4 lg:px-5 py-2 sm:py-2.5 rounded-full shadow-md hover:scale-105 active:scale-95 transition-all duration-300 flex-shrink-0"
+                className="btn-shimmer btn-glow-coral group hidden md:inline-flex items-center gap-1.5 xl:gap-2 bg-[#E55B38] hover:bg-[#cf4c2a] text-white text-xs sm:text-sm font-bold px-3.5 xl:px-5 py-2 sm:py-2.5 rounded-full shadow-md hover:scale-105 active:scale-95 transition-all duration-300 flex-shrink-0 whitespace-nowrap"
               >
                 <span>{t.nav.buyNow}</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
               </a>
 
-              {/* Mobile menu button (Hamburger 3-bar) */}
+              {/* Mobile & Tablet menu button (Hamburger 3-bar) */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="lg:hidden p-1.5 sm:p-2 text-[#1B3B2B] hover:bg-[#EFE8DC] rounded-xl flex-shrink-0 active:scale-95 transition-all"
+                className="xl:hidden p-1.5 sm:p-2 text-[#1B3B2B] hover:bg-[#EFE8DC] rounded-xl flex-shrink-0 active:scale-95 transition-all"
                 aria-label="Menu"
               >
                 {mobileMenuOpen ? (
@@ -293,7 +309,7 @@ export default function Header() {
 
         {/* Mobile menu dropdown */}
         {mobileMenuOpen && (
-          <div className="lg:hidden bg-[#FAF8F5] border-b border-[#EBE4D8] px-4 pt-3 pb-6 space-y-4 animate-fade-in shadow-lg">
+          <div className="xl:hidden bg-[#FAF8F5] border-b border-[#EBE4D8] px-4 pt-3 pb-6 space-y-4 animate-fade-in shadow-lg">
             {/* Mobile Nav Items */}
             <div className="space-y-1">
               {navItems.map((item) => {

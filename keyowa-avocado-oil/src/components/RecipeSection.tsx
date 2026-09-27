@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
+import Link from "next/link";
 import { Clock, Users, Flame, ArrowRight, BookOpen } from "lucide-react";
 
 export default function RecipeSection() {
@@ -33,13 +34,13 @@ export default function RecipeSection() {
             </h2>
           </div>
 
-          <a
-            href="#newsletter"
+          <Link
+            href="/recipes"
             className="group inline-flex items-center gap-1.5 text-sm font-bold text-emerald-800 hover:text-emerald-950 transition-colors"
           >
             <span>{data.viewAll}</span>
             <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-          </a>
+          </Link>
         </div>
 
         {/* Big Recipe Feature Card */}
@@ -47,7 +48,7 @@ export default function RecipeSection() {
           {/* Left Side: Recipe Food Photo */}
           <div className="lg:col-span-6 relative aspect-[4/3] lg:aspect-auto min-h-[340px] sm:min-h-[420px] overflow-hidden">
             <Image
-              src="/images/recipe-salad.jpg"
+              src="/images/recipe-salad.webp"
               alt={data.recipeTitle}
               fill
               className="object-cover object-center transition-transform duration-700 group-hover:scale-105"

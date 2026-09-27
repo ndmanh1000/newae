@@ -16,25 +16,111 @@ const serif = Playfair_Display({
   display: "swap",
 });
 
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://keyowa.vn";
+
 export const metadata: Metadata = {
-  title: "KEYOWA | Dầu Bơ Ép Lạnh Nguyên Chất Điểm Khói 270°C",
+  metadataBase: new URL(baseUrl),
+  title: {
+    default: "KEYOWA | Dầu Bơ Ép Lạnh Nguyên Chất Điểm Khói 270°C",
+    template: "%s | KEYOWA Avocado Oil",
+  },
   description:
-    "Dầu bơ nguyên chất 100% bơ Hass Đắk Lắk ép lạnh dưới 40°C. Điểm khói kỷ lục 270°C an toàn tuyệt đối cho chiên xào nhiệt độ cao & chuẩn vị bếp sao.",
+    "Dầu bơ nguyên chất 100% bơ Hass Đắk Lắk ép lạnh dưới 40°C. Điểm khói kỷ lục 270°C an toàn tuyệt đối cho chiên xào nhiệt độ cao & chuẩn vị bếp sao. Giàu Omega-9 và vitamin E tự nhiên.",
   keywords: [
     "dầu bơ",
     "dầu bơ ép lạnh",
     "keyowa",
     "dầu ăn điểm khói cao",
+    "dầu bơ 270 độ",
     "dầu bơ đắk lắk",
     "dầu ăn dặm cho bé",
-    "dầu dưỡng da tự nhiên",
+    "dầu chiên xào không khói",
+    "dầu ăn eat clean",
+    "dầu ăn keto",
   ],
+  authors: [{ name: "KEYOWA Vietnam" }],
+  creator: "KEYOWA",
+  publisher: "KEYOWA Vietnam",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "KEYOWA - Giọt Vàng Thượng Hạng Cho Ẩm Thực Nhiệt Độ Cao",
     description:
       "100% Bơ Hass Đắk Lắk tuyển chọn, ép lạnh cơ học dưới 40°C. Điểm khói 270°C vượt trội bảo vệ sức khỏe gia đình.",
-    images: ["/images/hero-bottle.jpg"],
+    url: baseUrl,
+    siteName: "KEYOWA Avocado Oil",
+    locale: "vi_VN",
+    type: "website",
+    images: [
+      {
+        url: "/images/hero-bottle.webp",
+        width: 1200,
+        height: 630,
+        alt: "Chai Dầu Bơ Ép Lạnh Nguyên Chất KEYOWA",
+      },
+    ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "KEYOWA | Dầu Bơ Ép Lạnh Nguyên Chất Điểm Khói 270°C",
+    description:
+      "100% Bơ Hass Đắk Lắk ép lạnh dưới 40°C. Điểm khói kỷ lục 270°C bảo vệ sức khỏe gia đình.",
+    images: ["/images/hero-bottle.webp"],
+    creator: "@keyowa_vn",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${baseUrl}/#organization`,
+      name: "KEYOWA",
+      url: baseUrl,
+      logo: `${baseUrl}/images/hero-bottle.webp`,
+      description:
+        "Thương hiệu dầu bơ ép lạnh nguyên chất 100% bơ Hass Đắk Lắk với điểm khói 270°C chuẩn ẩm thực 5 sao.",
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+84-90-123-4567",
+        contactType: "customer service",
+        areaServed: "VN",
+        availableLanguage: ["Vietnamese", "English"],
+      },
+      sameAs: [
+        "https://facebook.com/keyowa.vietnam",
+        "https://instagram.com/keyowa.oil",
+        "https://tiktok.com/@keyowaofficial",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`,
+      url: baseUrl,
+      name: "KEYOWA | Dầu Bơ Ép Lạnh Nguyên Chất",
+      publisher: {
+        "@id": `${baseUrl}/#organization`,
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${baseUrl}/recipes?q={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -44,6 +130,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi" className={`${sans.variable} ${serif.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-screen bg-[#FAF8F5] text-[#1B2921] font-sans antialiased selection:bg-forest-700 selection:text-white">
         <LanguageProvider>
           <CartProvider>{children}</CartProvider>

@@ -10,10 +10,10 @@ export default function TestimonialsSection() {
   const data = t.testimonials;
 
   const images = [
-    "/images/story-eatclean.jpg",
-    "/images/story-skincare.jpg",
-    "/images/story-chef.jpg",
-    "/images/story-mom.jpg",
+    "/images/story-eatclean.webp",
+    "/images/story-skincare.webp",
+    "/images/story-chef.webp",
+    "/images/story-mom.webp",
   ];
 
   return (

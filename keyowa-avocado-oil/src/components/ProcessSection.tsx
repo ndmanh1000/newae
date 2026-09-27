@@ -9,9 +9,9 @@ export default function ProcessSection() {
   const { t } = useLanguage();
 
   const stepImages = [
-    "/images/process-harvest.jpg",
-    "/images/process-press.jpg",
-    "/images/process-amber.jpg",
+    "/images/process-harvest.webp",
+    "/images/process-press.webp",
+    "/images/process-amber.webp",
   ];
 
   return (

@@ -149,4 +149,22 @@ html {
   animation: live-progress 4000ms linear forwards;
 }
 
+/* ============================================================ */
+/* PREVENT MOBILE / TABLET AUTO-ZOOM ON INPUT FOCUS */
+/* ============================================================ */
+@media screen and (max-width: 1024px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="search"],
+  input[type="password"],
+  input:not([type="checkbox"]):not([type="radio"]),
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
+
 

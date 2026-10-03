@@ -387,7 +387,7 @@ export default function Header() {
                 placeholder={t.nav.searchPlaceholder}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-transparent text-sm sm:text-base text-[#142A1E] placeholder-gray-400 focus:outline-none"
+                className="w-full bg-transparent text-base text-[#142A1E] placeholder-gray-400 focus:outline-none"
               />
               {searchQuery && (
                 <button

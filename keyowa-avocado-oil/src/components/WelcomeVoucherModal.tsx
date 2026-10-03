@@ -282,7 +282,7 @@ export default function WelcomeVoucherModal() {
                     setEmail(e.target.value);
                     setIsPaused(true);
                   }}
-                  className="w-full pl-11 pr-4 py-3 sm:py-3.5 rounded-xl border border-[#D5CDC0] text-xs sm:text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[#E55B38] text-[#142A1E] transition-all duration-200"
+                  className="w-full pl-11 pr-4 py-3 sm:py-3.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[#E55B38] text-[#142A1E] transition-all duration-200"
                 />
               </div>
 

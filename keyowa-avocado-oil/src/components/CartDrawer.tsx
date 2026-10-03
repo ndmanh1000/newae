@@ -307,7 +307,7 @@ export default function CartDrawer() {
                           placeholder={cartData.couponPlaceholder}
                           value={couponCode}
                           onChange={(e) => setCouponCode(e.target.value)}
-                          className="w-full pl-8 pr-2.5 py-2 rounded-xl border border-[#D7CFC2] text-xs uppercase focus:outline-none focus:ring-1 focus:ring-emerald-700 font-mono"
+                          className="w-full pl-8 pr-2.5 py-2 rounded-xl border border-[#D7CFC2] text-base sm:text-xs uppercase focus:outline-none focus:ring-1 focus:ring-emerald-700 font-mono"
                         />
                       </div>
                       <button
@@ -405,7 +405,7 @@ export default function CartDrawer() {
                     onChange={(e) =>
                       setCustomerInfo({ ...customerInfo, name: e.target.value })
                     }
-                    className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
                   />
                 </div>
 
@@ -424,7 +424,7 @@ export default function CartDrawer() {
                       onChange={(e) =>
                         setCustomerInfo({ ...customerInfo, phone: e.target.value })
                       }
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
                     />
                   </div>
 
@@ -440,7 +440,7 @@ export default function CartDrawer() {
                       onChange={(e) =>
                         setCustomerInfo({ ...customerInfo, email: e.target.value })
                       }
-                      className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
+                      className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
                     />
                   </div>
                 </div>
@@ -459,7 +459,7 @@ export default function CartDrawer() {
                     onChange={(e) =>
                       setCustomerInfo({ ...customerInfo, address: e.target.value })
                     }
-                    className="w-full px-3.5 py-2 rounded-xl border border-[#D5CDC0] text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white resize-none"
+                    className="w-full px-3.5 py-2 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white resize-none"
                   />
                 </div>
 
@@ -571,7 +571,7 @@ export default function CartDrawer() {
                     onChange={(e) =>
                       setCustomerInfo({ ...customerInfo, notes: e.target.value })
                     }
-                    className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
                   />
                 </div>
               </div>

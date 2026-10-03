@@ -85,7 +85,7 @@ export default function Newsletter() {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder={data.placeholder}
-                      className="w-full pl-11 pr-4 py-3.5 rounded-full border border-[#D5CDC0] text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-[#FAF8F5] text-[#142A1E] transition-all duration-200"
+                      className="w-full pl-11 pr-4 py-3.5 rounded-full border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-[#FAF8F5] text-[#142A1E] transition-all duration-200"
                     />
                   </div>
                   <button

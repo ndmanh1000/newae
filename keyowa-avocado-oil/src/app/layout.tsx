@@ -1,10 +1,17 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/context/CartContext";
 import { LanguageProvider } from "@/context/LanguageContext";
 import CustomerSupportChat from "@/components/CustomerSupportChat";
 import LiveSalesNotification from "@/components/LiveSalesNotification";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
 
 const sans = Plus_Jakarta_Sans({
   subsets: ["latin", "vietnamese"],

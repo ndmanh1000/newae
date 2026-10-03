@@ -340,7 +340,7 @@ export default function RecipesPage() {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Tìm theo tên món, nguyên liệu (cá hồi, ức gà, bơ, tôm...)"
-                  className="w-full pl-11 pr-10 py-3 bg-white rounded-full border border-[#DFD8CC] text-xs sm:text-sm text-[#142A1E] placeholder:text-gray-400 focus:outline-none focus:border-emerald-600 shadow-2xs"
+                  className="w-full pl-11 pr-10 py-3 bg-white rounded-full border border-[#DFD8CC] text-base sm:text-sm text-[#142A1E] placeholder:text-gray-400 focus:outline-none focus:border-emerald-600 shadow-2xs"
                 />
                 {searchQuery && (
                   <button
@@ -359,7 +359,7 @@ export default function RecipesPage() {
                 <select
                   value={selectedDiet}
                   onChange={(e) => setSelectedDiet(e.target.value)}
-                  className="bg-white border border-[#DFD8CC] text-xs font-medium text-[#2E4236] px-3.5 py-2.5 rounded-full focus:outline-none shadow-2xs cursor-pointer"
+                  className="bg-white border border-[#DFD8CC] text-base sm:text-xs font-medium text-[#2E4236] px-3.5 py-2.5 rounded-full focus:outline-none shadow-2xs cursor-pointer"
                 >
                   {dietOptions.map((opt) => (
                     <option key={opt.id} value={opt.id}>
@@ -372,7 +372,7 @@ export default function RecipesPage() {
                 <select
                   value={selectedTime}
                   onChange={(e) => setSelectedTime(e.target.value)}
-                  className="bg-white border border-[#DFD8CC] text-xs font-medium text-[#2E4236] px-3.5 py-2.5 rounded-full focus:outline-none shadow-2xs cursor-pointer"
+                  className="bg-white border border-[#DFD8CC] text-base sm:text-xs font-medium text-[#2E4236] px-3.5 py-2.5 rounded-full focus:outline-none shadow-2xs cursor-pointer"
                 >
                   <option value="all">Thời gian: Tất cả</option>
                   <option value="quick">Nhanh gọn (≤ 15 phút)</option>

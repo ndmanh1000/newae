@@ -110,7 +110,7 @@ export default function B2BBanner() {
                     placeholder="Nguyen Van A"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700"
+                    className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700"
                   />
                 </div>
 
@@ -125,7 +125,7 @@ export default function B2BBanner() {
                       placeholder="Le Gourmet Restaurant"
                       value={formData.restaurant}
                       onChange={(e) => setFormData({ ...formData, restaurant: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700"
+                      className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700"
                     />
                   </div>
                   <div>
@@ -138,7 +138,7 @@ export default function B2BBanner() {
                       placeholder="+84 912 xxx xxx"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700"
+                      className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700"
                     />
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function B2BBanner() {
                   <select
                     value={formData.need}
                     onChange={(e) => setFormData({ ...formData, need: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
+                    className="w-full px-4 py-2.5 rounded-xl border border-[#D5CDC0] text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700 bg-white"
                   >
                     <option>{data.opt1}</option>
                     <option>{data.opt2}</option>

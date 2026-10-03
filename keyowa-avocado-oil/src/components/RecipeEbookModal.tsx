@@ -104,7 +104,7 @@ export default function RecipeEbookModal({ isOpen, onClose }: RecipeEbookModalPr
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Nhập email của bạn để nhận E-Book..."
-                    className="w-full pl-10 pr-4 py-3 bg-white rounded-xl border border-[#DED5C7] text-xs sm:text-sm text-[#142A1E] placeholder:text-gray-400 focus:outline-none focus:border-emerald-600"
+                    className="w-full pl-10 pr-4 py-3 bg-white rounded-xl border border-[#DED5C7] text-base sm:text-sm text-[#142A1E] placeholder:text-gray-400 focus:outline-none focus:border-emerald-600"
                   />
                 </div>
                 <button

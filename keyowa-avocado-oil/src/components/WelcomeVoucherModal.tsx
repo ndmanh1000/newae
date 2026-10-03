@@ -81,7 +81,7 @@ export default function WelcomeVoucherModal() {
 
     setSubmitted(true);
     if (navigator.clipboard) {
-      navigator.clipboard.writeText("KEYOWA15");
+      navigator.clipboard.writeText("KEYAVO15");
     }
 
     setTimeout(() => {

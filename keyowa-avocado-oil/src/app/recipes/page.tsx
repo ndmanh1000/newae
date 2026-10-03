@@ -55,7 +55,7 @@ export default function RecipesPage() {
   // Load favorites from localStorage
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("keyowa_favorite_recipes");
+      const saved = localStorage.getItem("keyavo_favorite_recipes");
       if (saved) {
         setFavorites(JSON.parse(saved));
       }
@@ -68,7 +68,7 @@ export default function RecipesPage() {
     setFavorites((prev) => {
       const next = prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id];
       try {
-        localStorage.setItem("keyowa_favorite_recipes", JSON.stringify(next));
+        localStorage.setItem("keyavo_favorite_recipes", JSON.stringify(next));
       } catch {
         // ignore
       }
@@ -171,7 +171,7 @@ export default function RecipesPage() {
               </div>
 
               <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
-                Tuyệt Phẩm 50+ Công Thức Món Ăn Cùng Dầu Bơ Ép Lạnh Keyowa
+                Tuyệt Phẩm 50+ Công Thức Món Ăn Cùng Dầu Bơ Ép Lạnh Keyavo
               </h1>
 
               <p className="text-sm sm:text-base text-emerald-100/85 leading-relaxed font-normal">
@@ -590,7 +590,7 @@ export default function RecipesPage() {
                   <span>GÓC NHÌN BẬC THẦY ẨM THỰC</span>
                 </div>
                 <h3 className="font-serif text-xl sm:text-2xl lg:text-3xl font-bold leading-snug">
-                  “Điểm khói 270°C của dầu bơ Keyowa là cuộc cách mạng cho các món áp chảo và sốt nhũ hóa.”
+                  “Điểm khói 270°C của dầu bơ Keyavo là cuộc cách mạng cho các món áp chảo và sốt nhũ hóa.”
                 </h3>
                 <p className="text-xs sm:text-sm text-emerald-200/80 leading-relaxed font-normal">
                   — Executive Chef Alain Vũ (Nhà hàng Fine Dining chuẩn Michelin). Dầu bơ không sinh khói độc Acrolein, bảo toàn tối đa vitamin và tôn vinh nguyên vẹn vị ngọt nguyên bản của nguyên liệu tươi sống.
@@ -603,7 +603,7 @@ export default function RecipesPage() {
                   className="inline-flex items-center justify-center gap-2 bg-[#E55B38] hover:bg-[#cf4c2a] text-white text-xs sm:text-sm font-bold px-6 py-3.5 rounded-full shadow-lg transition-all hover:scale-105 active:scale-95 btn-shimmer whitespace-nowrap"
                 >
                   <ShoppingBag className="w-4 h-4" />
-                  <span>Mua Dầu Bơ Keyowa Ngay</span>
+                  <span>Mua Dầu Bơ Keyavo Ngay</span>
                 </Link>
                 <button
                   onClick={() => setIsEbookOpen(true)}

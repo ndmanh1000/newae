@@ -41,7 +41,7 @@ export const TRANSLATIONS = {
       skip: "Để tôi khám phá trang trước",
       autoCloseTimer: "Tự đóng sau",
       seconds: "giây",
-      successMsg: "Đã gửi mã KEYOWA15 và E-Book vào email của bạn!",
+      successMsg: "Đã gửi mã KEYAVO15 và E-Book vào email của bạn!",
       successCopy: "Đã tự động sao chép mã giảm giá 15%!",
       leftStamp: "KEYAVO PRIVILEGE VIETNAM",
       leftPill: "ÉP LẠNH NGUYÊN BẢN",
@@ -51,7 +51,7 @@ export const TRANSLATIONS = {
       leftSub: "Đồng hành cùng hơn 35+ nhà hàng Fine Dining chuẩn Michelin & đầu bếp thượng hạng.",
     },
     nav: {
-      about: "Về Keyowa",
+      about: "Về Keyavo",
       products: "Sản Phẩm",
       chefCollection: "Dòng Dầu Bếp 5 Sao",
       process: "Nghệ Thuật Nấu Nướng",
@@ -99,7 +99,7 @@ export const TRANSLATIONS = {
     process: {
       badge: "CÔNG NGHỆ ĐỘC QUYỀN",
       title: "Quy trình bóc tách ba tầng ép lạnh giữ nguyên vẹn sinh học.",
-      desc: "Khác biệt hoàn toàn với dầu tinh luyện công nghiệp qua xử lý hóa chất ở 200°C. Keyowa giữ lại trọn vẹn vitamin E, lutein và axit béo omega 9 tinh khiết tự nhiên.",
+      desc: "Khác biệt hoàn toàn với dầu tinh luyện công nghiệp qua xử lý hóa chất ở 200°C. Keyavo giữ lại trọn vẹn vitamin E, lutein và axit béo omega 9 tinh khiết tự nhiên.",
       steps: [
         {
           stepNumber: "01",
@@ -130,16 +130,16 @@ export const TRANSLATIONS = {
     smokePoint: {
       badge: "TIÊU CHUẨN AN TOÀN CAO NHẤT",
       title: "Điểm khói kỷ lục 270°C: Áp chảo đã tay, chiên giòn an toàn tuyệt đối.",
-      desc: "Khi dầu ăn bị đun vượt qua điểm khói, cấu trúc chất béo bị bẻ gãy sinh ra khói độc Acrolein và các gốc tự do gây hại tế bào. Với điểm khói đỉnh cao thế giới 270°C, dầu bơ Keyowa cho phép bạn chế biến mọi món chiên, xào, nướng mà vẫn giữ độ thanh lành tinh khiết.",
+      desc: "Khi dầu ăn bị đun vượt qua điểm khói, cấu trúc chất béo bị bẻ gãy sinh ra khói độc Acrolein và các gốc tự do gây hại tế bào. Với điểm khói đỉnh cao thế giới 270°C, dầu bơ Keyavo cho phép bạn chế biến mọi món chiên, xào, nướng mà vẫn giữ độ thanh lành tinh khiết.",
       expertTitle: "GS. Huỳnh Trọng Nghĩa",
       expertRole: "Chuyên gia Dinh dưỡng & Độc học Thực phẩm",
       expertBadge: "Chuyên gia khuyên dùng",
       expertQuote: "Dầu bơ là lựa chọn số 1 cho các món xào áp chảo nhiệt độ cao. Không khét, không sinh độc tố và bảo toàn vitamin tối đa.",
       chartTitle: "So Sánh Điểm Khói Thực Phẩm",
       chartSub: "Khả năng chịu nhiệt trước khi bị phân hủy độc hại",
-      recommendation: "Khuyến nghị: Dầu bơ Keyowa chịu nhiệt cao gấp 1.4 lần dầu Oliu Extra Virgin (190°C), bảo toàn hoàn hảo dưỡng chất mà không bị oxy hóa thành khói độc.",
+      recommendation: "Khuyến nghị: Dầu bơ Keyavo chịu nhiệt cao gấp 1.4 lần dầu Oliu Extra Virgin (190°C), bảo toàn hoàn hảo dưỡng chất mà không bị oxy hóa thành khói độc.",
       items: [
-        { name: "Dầu bơ ép lạnh KEYOWA", pointText: "270°C", badge: "AN TOÀN NHẤT", sub: "Lựa chọn tối ưu chiên xào" },
+        { name: "Dầu bơ ép lạnh KEYAVO", pointText: "270°C", badge: "AN TOÀN NHẤT", sub: "Lựa chọn tối ưu chiên xào" },
         { name: "Dầu dừa tinh luyện", pointText: "232°C", badge: "Mức khá", sub: "An toàn chiên xào" },
         { name: "Dầu hạt cải / Hướng dương", pointText: "204°C", badge: "Mức trung bình", sub: "Hạn chế nhiệt cao" },
         { name: "Dầu Oliu Extra Virgin", pointText: "190°C", badge: "Dễ khét khi xào rán", sub: "Chỉ dùng trộn lạnh" },
@@ -160,8 +160,8 @@ export const TRANSLATIONS = {
       added: "Đã thêm",
       items: [
         {
-          id: "keyowa-500ml",
-          name: "Keyowa Avocado Extra Virgin 500ml",
+          id: "keyavo-500ml",
+          name: "Keyavo Avocado Extra Virgin 500ml",
           volume: "500ml",
           smokePoint: "Điểm khói 270°C",
           tagline: "Chuyên dụng cho áp chảo, chiên xào nhiệt độ cao & làm sốt salad chuẩn nhà hàng.",
@@ -175,7 +175,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-dropper-100ml",
+          id: "keyavo-dropper-100ml",
           name: "Chai Mini Dropper 100ml (Ăn dặm & Skincare)",
           volume: "100ml",
           smokePoint: "Ép lạnh cơ học",
@@ -190,8 +190,8 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-baby-250ml",
-          name: "Keyowa Kids & Baby Virgin 250ml",
+          id: "keyavo-baby-250ml",
+          name: "Keyavo Kids & Baby Virgin 250ml",
           volume: "250ml",
           smokePoint: "Tăng cường DHA",
           tagline: "Dinh dưỡng phát triển trí não và chiều cao cho bé từ 6 tháng tuổi. Hương vị thanh dịu dễ ăn.",
@@ -205,7 +205,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-giftset",
+          id: "keyavo-giftset",
           name: "Bộ Hộp Quà Gourmet Chef Gift Set",
           volume: "Set 3 Chai",
           smokePoint: "Hộp gỗ sơn mài",
@@ -214,7 +214,7 @@ export const TRANSLATIONS = {
           description: "Món quà tinh tế thể hiện sự quan tâm sâu sắc tới sức khỏe của người thân, đối tác và đồng nghiệp. Hộp quà bao gồm 1 chai Extra Virgin 500ml, 1 chai Mini Dropper 100ml, 1 chai Baby Virgin 250ml cùng thìa đong gỗ óc chó cao cấp.",
           features: [
             "Hộp gỗ sang trọng lót lụa vàng ánh kim",
-            "Bao gồm đủ 3 dòng sản phẩm biểu tượng của Keyowa",
+            "Bao gồm đủ 3 dòng sản phẩm biểu tượng của Keyavo",
             "Tặng kèm thìa gỗ đo liều lượng & sách công thức Michelin",
             "Thiệp chúc mừng khắc laser cá nhân hóa theo yêu cầu",
           ],
@@ -239,7 +239,7 @@ export const TRANSLATIONS = {
           desc: "Không sinh khói đen hay mùi cháy khét độc hại, giữ cho không gian bếp mở luôn sang trọng và tinh tế.",
         },
       ],
-      chefQuote: "Dầu bơ Keyowa là bí quyết vàng để chúng tôi làm nên lớp vỏ giòn tan hoàn hảo cho món áp chảo và các loại sốt Pháp mà không một loại dầu nào thay thế được.",
+      chefQuote: "Dầu bơ Keyavo là bí quyết vàng để chúng tôi làm nên lớp vỏ giòn tan hoàn hảo cho món áp chảo và các loại sốt Pháp mà không một loại dầu nào thay thế được.",
       chefName: "Alain Vũ",
       chefRole: "Executive Chef • Khách sạn 5 sao Park Hyatt",
       featuredTitle: "Sản phẩm biểu tượng cho Bếp 5 Sao",
@@ -255,18 +255,18 @@ export const TRANSLATIONS = {
       servings: "2 phần ăn",
       calories: "380 kcal / phần",
       recipeTitle: "Salad Ức Gà Áp Chảo & Sốt Vinaigrette Dầu Bơ Chanh Leo",
-      recipeDesc: "Thịt ức gà mềm mọng nước khi áp chảo với dầu bơ Keyowa ở 220°C, giữ trọn vị ngọt tự nhiên kết hợp cùng sốt chanh leo sánh mịn, thơm bùi thanh tao.",
+      recipeDesc: "Thịt ức gà mềm mọng nước khi áp chảo với dầu bơ Keyavo ở 220°C, giữ trọn vị ngọt tự nhiên kết hợp cùng sốt chanh leo sánh mịn, thơm bùi thanh tao.",
       secretTitle: "Bí quyết 3 bước thực hiện:",
-      step1: "Ướp gia vị: Xoa đều ức gà với muối hồng Himalaya, tiêu đen đập dập và 1 thìa canh dầu bơ Keyowa để tinh chất dầu ngấm sâu vào từng thớ thịt.",
+      step1: "Ướp gia vị: Xoa đều ức gà với muối hồng Himalaya, tiêu đen đập dập và 1 thìa canh dầu bơ Keyavo để tinh chất dầu ngấm sâu vào từng thớ thịt.",
       step2: "Áp chảo nhiệt cao: Làm nóng chảo với 1 thìa dầu bơ ở 220°C, áp chảo mỗi mặt 4 phút. Dầu không cháy khét giúp vỏ vàng ươm còn bên trong mọng nước.",
-      step3: "Đánh sốt nhũ hóa: Trộn đều 3 thìa dầu bơ Keyowa, 1 thìa mật ong rừng, nước cốt 1 quả chanh leo và mù tạt Dijon tạo thành lớp sốt óng ánh.",
+      step3: "Đánh sốt nhũ hóa: Trộn đều 3 thìa dầu bơ Keyavo, 1 thìa mật ong rừng, nước cốt 1 quả chanh leo và mù tạt Dijon tạo thành lớp sốt óng ánh.",
       downloadBtn: "Tải toàn bộ công thức chi tiết (PDF)",
       downloadedMsg: "Đã gửi Ebook qua email của bạn!",
       btnBuyForRecipe: "Đặt dầu bơ để nấu món này",
     },
     callout: {
       badge: "CAM KẾT CHẤT LƯỢNG VÀNG",
-      title: "Dầu bơ Keyowa cam kết 100% nguyên chất, không pha trộn, không phụ gia công nghiệp.",
+      title: "Dầu bơ Keyavo cam kết 100% nguyên chất, không pha trộn, không phụ gia công nghiệp.",
       desc: "Từng giọt dầu bơ được ép nguyên chất trực tiếp từ thịt quả bơ Hass tươi. Cam kết hoàn tiền 200% nếu phát hiện pha trộn bất kỳ loại dầu nào khác.",
       statLabel: "Điểm khói cao nhất thế giới cho dầu ăn gia đình",
       btn: "Đặt Mua Ngay Hôm Nay",
@@ -280,7 +280,7 @@ export const TRANSLATIONS = {
           tag: "ẨM THỰC EAT-CLEAN",
           name: "Lan Chi",
           title: "Food Blogger & Huấn luyện viên Eat-Clean",
-          quote: "Từ ngày chuyển sang dùng dầu bơ Keyowa, món xào và áp chảo không còn mùi khét dầu, vị bơ thơm bùi thanh nhẹ. Cả gia đình mình đều yêu thích!",
+          quote: "Từ ngày chuyển sang dùng dầu bơ Keyavo, món xào và áp chảo không còn mùi khét dầu, vị bơ thơm bùi thanh nhẹ. Cả gia đình mình đều yêu thích!",
         },
         {
           tag: "SKINCARE & LÀN DA",
@@ -292,7 +292,7 @@ export const TRANSLATIONS = {
           tag: "BẾP NHÀ HÀNG 5 SAO",
           name: "Chef Hoàng Tùng",
           title: "Bếp trưởng & Giám khảo Ẩm thực",
-          quote: "Để có lớp vỏ steak giòn caramel hoàn hảo mà bên trong vẫn mềm mọng nước, điểm khói 270°C của Keyowa là vũ khí bí mật số một của gian bếp chúng tôi.",
+          quote: "Để có lớp vỏ steak giòn caramel hoàn hảo mà bên trong vẫn mềm mọng nước, điểm khói 270°C của Keyavo là vũ khí bí mật số một của gian bếp chúng tôi.",
         },
         {
           tag: "DINH DƯỠNG ĂN DẶM",
@@ -308,10 +308,10 @@ export const TRANSLATIONS = {
       desc: "Nhận bảng giá sỉ chiết khấu cao và gửi mẫu thử nghiệm dung tích 100ml miễn phí.",
       btn: "Đăng Ký Nhận Mẫu Thử",
       modalBadge: "HỢP TÁC NHÀ HÀNG & ĐẠI LÝ",
-      modalTitle: "Đăng ký nhận mẫu dầu bơ Keyowa",
+      modalTitle: "Đăng ký nhận mẫu dầu bơ Keyavo",
       modalSub: "Chúng tôi sẽ liên hệ trong 24 giờ và gửi mẫu thử trực tiếp đến địa chỉ bếp của bạn.",
       successTitle: "Đã tiếp nhận yêu cầu!",
-      successSub: "Đội ngũ chuyên viên Keyowa B2B sẽ liên hệ với bạn sớm nhất.",
+      successSub: "Đội ngũ chuyên viên Keyavo B2B sẽ liên hệ với bạn sớm nhất.",
       nameLabel: "Họ và tên của bạn",
       restLabel: "Tên Nhà hàng / Đơn vị",
       phoneLabel: "Số điện thoại",
@@ -323,7 +323,7 @@ export const TRANSLATIONS = {
     },
     newsletter: {
       badge: "ƯU ĐÃI ĐỘC QUYỀN ĐƠN ĐẦU TIÊN",
-      title: "Nhận 15% ưu đãi cho chai dầu bơ Keyowa đầu tiên.",
+      title: "Nhận 15% ưu đãi cho chai dầu bơ Keyavo đầu tiên.",
       desc: "Nhập email để nhận ngay mã voucher giảm 15% kèm link tải cuốn Ebook \"50 Công Thức Eat-Clean Bếp Sao\" hoàn toàn miễn phí.",
       placeholder: "Nhập email của bạn...",
       btn: "Đăng Ký Nhận Mã",
@@ -342,8 +342,8 @@ export const TRANSLATIONS = {
       d4: "Hoàn tiền 200% nếu phát hiện pha trộn",
     },
     footer: {
-      mission: "KEYOWA mang đến giải pháp dầu quả ép lạnh thượng hạng cho từng căn bếp gia đình Việt, nâng tầm ẩm thực an toàn, lành sạch và bảo vệ sức khỏe tim mạch bền vững từ 100% bơ Hass Đắk Lắk.",
-      colAboutTitle: "Về KEYOWA",
+      mission: "KEYAVO mang đến giải pháp dầu quả ép lạnh thượng hạng cho từng căn bếp gia đình Việt, nâng tầm ẩm thực an toàn, lành sạch và bảo vệ sức khỏe tim mạch bền vững từ 100% bơ Hass Đắk Lắk.",
+      colAboutTitle: "Về KEYAVO",
       aboutLinks: [
         "Câu chuyện thương hiệu",
         "Vùng nguyên liệu Đắk Lắk",
@@ -361,10 +361,10 @@ export const TRANSLATIONS = {
       ],
       colContactTitle: "Liên Hệ & Hỗ Trợ",
       hotline: "1900 888 666 (8:00 - 21:00)",
-      email: "lienhe@keyowa.vn",
+      email: "lienhe@keyavo.vn",
       factory: "Xưởng ép lạnh: Huyện Krông Năng, Tỉnh Đắk Lắk",
       office: "VP Đại diện: Tòa nhà Landmark 81, TP. Hồ Chí Minh",
-      copyright: "© 2026 KEYOWA Cold-Pressed Avocado Oil. Bản quyền thuộc về Keyowa Vietnam.",
+      copyright: "© 2026 KEYAVO Cold-Pressed Avocado Oil. Bản quyền thuộc về Keyavo Vietnam.",
       privacy: "Chính sách bảo mật",
       terms: "Điều khoản dịch vụ",
       guarantee: "Cam kết chất lượng",
@@ -377,9 +377,9 @@ export const TRANSLATIONS = {
       emptyTitle: "Giỏ hàng đang trống",
       emptyDesc: "Hãy chọn chai dầu bơ ép lạnh thượng hạng để bảo vệ sức khỏe gia đình bạn!",
       exploreBtn: "Khám Phá Sản Phẩm Ngay",
-      couponPlaceholder: "Mã voucher (Thử: KEYOWA15)",
+      couponPlaceholder: "Mã voucher (Thử: KEYAVO15)",
       applyBtn: "Áp Dụng",
-      couponApplied: "✓ Đã áp dụng giảm giá 15% (Mã: KEYOWA15)",
+      couponApplied: "✓ Đã áp dụng giảm giá 15% (Mã: KEYAVO15)",
       couponError: "Mã giảm giá không hợp lệ",
       subtotal: "Tạm tính",
       voucher: "Voucher ưu đãi 15%",
@@ -416,7 +416,7 @@ export const TRANSLATIONS = {
         continueShopping: "Tiếp Tục Mua Sắm",
         deliveryTo: "Giao đến:",
         successTitle: "Đặt Hàng Thành Công!",
-        successDesc: "Cảm ơn bạn đã lựa chọn dầu bơ Keyowa. Nhân viên tư vấn sẽ liên hệ xác nhận đơn hàng trong giây lát.",
+        successDesc: "Cảm ơn bạn đã lựa chọn dầu bơ Keyavo. Nhân viên tư vấn sẽ liên hệ xác nhận đơn hàng trong giây lát.",
       },
     },
     quickView: {
@@ -432,12 +432,12 @@ export const TRANSLATIONS = {
       title: "Chính Sách Bảo Mật",
       subtitle: "Cam kết bảo vệ dữ liệu cá nhân và quyền riêng tư của bạn theo tiêu chuẩn quốc tế ISO/IEC 27701.",
       lastUpdated: "Cập nhật lần cuối: Tháng 09/2026",
-      intro: "Chào mừng quý khách đến với Keyowa Vietnam. Chúng tôi hiểu rằng quyền riêng tư và sự an toàn thông tin cá nhân là nền tảng của lòng tin. Chính sách này quy định chi tiết cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ dữ liệu khi bạn truy cập website hoặc đặt mua dầu bơ ép lạnh nguyên chất Keyowa.",
+      intro: "Chào mừng quý khách đến với Keyavo Vietnam. Chúng tôi hiểu rằng quyền riêng tư và sự an toàn thông tin cá nhân là nền tảng của lòng tin. Chính sách này quy định chi tiết cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ dữ liệu khi bạn truy cập website hoặc đặt mua dầu bơ ép lạnh nguyên chất Keyavo.",
       sections: [
         {
           id: "collection",
           title: "1. Thông Tin Thu Thập",
-          content: "Khi quý khách tương tác với hệ thống Keyowa (đặt hàng, đăng ký nhận mã ưu đãi 15%, hoặc liên hệ tư vấn), chúng tôi có thể thu thập các thông tin sau:",
+          content: "Khi quý khách tương tác với hệ thống Keyavo (đặt hàng, đăng ký nhận mã ưu đãi 15%, hoặc liên hệ tư vấn), chúng tôi có thể thu thập các thông tin sau:",
           bullets: [
             "Thông tin định danh & liên hệ: Họ và tên, số điện thoại, địa chỉ email, địa chỉ giao nhận hàng.",
             "Thông tin giao dịch: Danh mục sản phẩm đã chọn, số lượng, lịch sử đơn hàng, ghi chú giao hàng.",
@@ -458,7 +458,7 @@ export const TRANSLATIONS = {
         {
           id: "security",
           title: "3. Bảo Mật & Mã Hóa Dữ Liệu",
-          content: "Sự an toàn thông tin của khách hàng là ưu tiên hàng đầu tại Keyowa:",
+          content: "Sự an toàn thông tin của khách hàng là ưu tiên hàng đầu tại Keyavo:",
           bullets: [
             "Toàn bộ kết nối trên website được mã hóa bằng giao thức SSL 256-bit chuẩn tài chính quốc tế.",
             "Dữ liệu thanh toán qua thẻ ngân hàng được xử lý bảo mật qua cổng thanh toán được cấp phép; chúng tôi tuyệt đối không lưu giữ thông tin thẻ của bạn.",
@@ -478,10 +478,10 @@ export const TRANSLATIONS = {
         {
           id: "contact",
           title: "5. Thông Tin Liên Hệ Bộ Phận Bảo Mật",
-          content: "Mọi thắc mắc hoặc yêu cầu liên quan đến chính sách bảo mật, xin vui lòng liên hệ Ban Quản Trị Dữ Liệu Keyowa:",
+          content: "Mọi thắc mắc hoặc yêu cầu liên quan đến chính sách bảo mật, xin vui lòng liên hệ Ban Quản Trị Dữ Liệu Keyavo:",
           bullets: [
             "Hotline hỗ trợ: 1900 888 666 (8:00 - 21:00 hàng ngày)",
-            "Email chuyên trách: lienhe@keyowa.vn",
+            "Email chuyên trách: lienhe@keyavo.vn",
             "Văn phòng đại diện: Tòa nhà Landmark 81, TP. Hồ Chí Minh",
           ],
         },
@@ -492,9 +492,9 @@ export const TRANSLATIONS = {
       breadcrumbCurrent: "Điều khoản dịch vụ",
       badge: "QUY CHẾ HOẠT ĐỘNG & MUA SẮM",
       title: "Điều Khoản Dịch Vụ",
-      subtitle: "Quy định rõ ràng, minh bạch nhằm đảm bảo tối đa quyền lợi của khách hàng khi trải nghiệm mua sắm tại Keyowa.",
+      subtitle: "Quy định rõ ràng, minh bạch nhằm đảm bảo tối đa quyền lợi của khách hàng khi trải nghiệm mua sắm tại Keyavo.",
       lastUpdated: "Cập nhật lần cuối: Tháng 09/2026",
-      intro: "Chào mừng quý khách đến với website thương mại điện tử chính thức của Keyowa Vietnam. Khi truy cập, duyệt sản phẩm hoặc đặt hàng, quý khách đồng ý tuân thủ các điều khoản và điều kiện được nêu dưới đây.",
+      intro: "Chào mừng quý khách đến với website thương mại điện tử chính thức của Keyavo Vietnam. Khi truy cập, duyệt sản phẩm hoặc đặt hàng, quý khách đồng ý tuân thủ các điều khoản và điều kiện được nêu dưới đây.",
       sections: [
         {
           id: "general",
@@ -513,7 +513,7 @@ export const TRANSLATIONS = {
           bullets: [
             "Mọi mức giá niêm yết trên website là giá thanh toán cuối cùng đã bao gồm thuế Giá trị gia tăng (VAT).",
             "Hỗ trợ 3 phương thức thanh toán an toàn: COD (tiền mặt khi nhận hàng), Quét mã VietQR chuyển khoản nhanh 24/7 và Thẻ tín dụng/ghi nợ quốc tế.",
-            "Trường hợp áp dụng mã giảm giá (như KEYOWA15), số tiền chiết khấu sẽ được trừ trực tiếp vào tổng thanh toán trước khi xác nhận.",
+            "Trường hợp áp dụng mã giảm giá (như KEYAVO15), số tiền chiết khấu sẽ được trừ trực tiếp vào tổng thanh toán trước khi xác nhận.",
           ],
         },
         {
@@ -541,7 +541,7 @@ export const TRANSLATIONS = {
           title: "5. Quyền Sở Hữu Trí Tuệ & Khiếu Nại",
           content: "Bảo hộ thương hiệu và kênh tiếp nhận phản hồi:",
           bullets: [
-            "Tất cả nhãn hiệu, logo Keyowa, hình ảnh quy trình và bài viết cẩm nang công thức thuộc sở hữu độc quyền của Keyowa Vietnam.",
+            "Tất cả nhãn hiệu, logo Keyavo, hình ảnh quy trình và bài viết cẩm nang công thức thuộc sở hữu độc quyền của Keyavo Vietnam.",
             "Mọi thắc mắc hoặc khiếu nại phát sinh sẽ được tiếp nhận và xử lý thỏa đáng trong vòng 12 giờ làm việc qua hotline 1900 888 666.",
           ],
         },
@@ -554,7 +554,7 @@ export const TRANSLATIONS = {
       title: "Cam Kết Chất Lượng",
       subtitle: "5 lời thề danh dự tạo nên giọt dầu bơ nguyên chất hảo hạng cho ẩm thực nhiệt độ cao và an toàn sức khỏe gia đình bạn.",
       lastUpdated: "Áp dụng cho toàn bộ mùa vụ thu hoạch 2026",
-      intro: "Tại Keyowa, chất lượng không chỉ là một mục tiêu mà là sự sống còn của thương hiệu. Mỗi giọt dầu bơ đến tay khách hàng là kết tinh từ niềm đam mê ẩm thực thuần khiết và công nghệ sản xuất hiện đại bậc nhất.",
+      intro: "Tại Keyavo, chất lượng không chỉ là một mục tiêu mà là sự sống còn của thương hiệu. Mỗi giọt dầu bơ đến tay khách hàng là kết tinh từ niềm đam mê ẩm thực thuần khiết và công nghệ sản xuất hiện đại bậc nhất.",
       pillars: [
         {
           number: "01",
@@ -588,7 +588,7 @@ export const TRANSLATIONS = {
           number: "05",
           tag: "BẢO CHỨNG DANH DỰ",
           title: "Bảo Chứng Hoàn Tiền 200%",
-          desc: "Keyowa cam kết hoàn trả 200% giá trị đơn hàng nếu quý khách kiểm nghiệm phát hiện sản phẩm có chứa chất bảo quản, hóa chất dung môi hexane hoặc pha tạp bất kỳ loại dầu nào khác.",
+          desc: "Keyavo cam kết hoàn trả 200% giá trị đơn hàng nếu quý khách kiểm nghiệm phát hiện sản phẩm có chứa chất bảo quản, hóa chất dung môi hexane hoặc pha tạp bất kỳ loại dầu nào khác.",
           highlight: "Cam kết bồi hoàn không điều kiện",
         },
       ],
@@ -630,7 +630,7 @@ export const TRANSLATIONS = {
       skip: "Let me explore the site first",
       autoCloseTimer: "Auto closing in",
       seconds: "s",
-      successMsg: "Code KEYOWA15 and E-Book sent to your email!",
+      successMsg: "Code KEYAVO15 and E-Book sent to your email!",
       successCopy: "15% voucher copied to clipboard!",
       leftStamp: "KEYAVO PRIVILEGE VIETNAM",
       leftPill: "VIRGIN COLD-PRESSED",
@@ -640,7 +640,7 @@ export const TRANSLATIONS = {
       leftSub: "Partnered with 35+ Michelin-caliber fine dining venues & master chefs.",
     },
     nav: {
-      about: "About Keyowa",
+      about: "About Keyavo",
       products: "Products",
       chefCollection: "5-Star Chef Oils",
       process: "Culinary Art",
@@ -688,7 +688,7 @@ export const TRANSLATIONS = {
     process: {
       badge: "PROPRIETARY TECHNOLOGY",
       title: "Three-stage cold-press bio-preservation extraction process.",
-      desc: "Unlike industrial refined oils processed chemically at 200°C, Keyowa locks in 100% of natural Vitamin E, lutein, and pure oleic omega-9 fatty acids.",
+      desc: "Unlike industrial refined oils processed chemically at 200°C, Keyavo locks in 100% of natural Vitamin E, lutein, and pure oleic omega-9 fatty acids.",
       steps: [
         {
           stepNumber: "01",
@@ -719,16 +719,16 @@ export const TRANSLATIONS = {
     smokePoint: {
       badge: "HIGHEST SAFETY STANDARD",
       title: "Record 270°C smoke point: Searing, frying & grilling with absolute peace of mind.",
-      desc: "When cooking oils exceed their smoke point, delicate fats decompose into toxic acrolein and harmful free radicals. At 270°C, Keyowa avocado oil lets you sear steaks and fry foods with total health confidence.",
+      desc: "When cooking oils exceed their smoke point, delicate fats decompose into toxic acrolein and harmful free radicals. At 270°C, Keyavo avocado oil lets you sear steaks and fry foods with total health confidence.",
       expertTitle: "Prof. Dr. Huynh Trong Nghia",
       expertRole: "Food Toxicology & Nutrition Specialist",
       expertBadge: "Expert Endorsed",
       expertQuote: "Avocado oil is the gold standard for high-heat cooking. Zero acrolein smoke, no bitter burning, and maximum nutrient retention.",
       chartTitle: "Culinary Smoke Point Benchmark",
       chartSub: "Thermal stability before harmful chemical breakdown",
-      recommendation: "Recommendation: Keyowa avocado oil withstands 1.4x higher heat than Extra Virgin Olive Oil (190°C), protecting cardiovascular health.",
+      recommendation: "Recommendation: Keyavo avocado oil withstands 1.4x higher heat than Extra Virgin Olive Oil (190°C), protecting cardiovascular health.",
       items: [
-        { name: "KEYOWA Cold-Pressed Avocado Oil", pointText: "270°C", badge: "SAFEST CHOICE", sub: "Optimal for high-heat cooking" },
+        { name: "KEYAVO Cold-Pressed Avocado Oil", pointText: "270°C", badge: "SAFEST CHOICE", sub: "Optimal for high-heat cooking" },
         { name: "Refined Coconut Oil", pointText: "232°C", badge: "Good Level", sub: "Safe for frying" },
         { name: "Canola / Sunflower Oil", pointText: "204°C", badge: "Moderate", sub: "Limit high heat" },
         { name: "Extra Virgin Olive Oil", pointText: "190°C", badge: "Burns easily when hot", sub: "Cold salads only" },
@@ -749,8 +749,8 @@ export const TRANSLATIONS = {
       added: "Added",
       items: [
         {
-          id: "keyowa-500ml",
-          name: "Keyowa Avocado Extra Virgin 500ml",
+          id: "keyavo-500ml",
+          name: "Keyavo Avocado Extra Virgin 500ml",
           volume: "500ml",
           smokePoint: "270°C Smoke Point",
           tagline: "Tailored for high-heat searing, crispy frying & Michelin restaurant vinaigrettes.",
@@ -764,7 +764,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-dropper-100ml",
+          id: "keyavo-dropper-100ml",
           name: "Mini Dropper 100ml (Skincare & Weaning)",
           volume: "100ml",
           smokePoint: "Cold Pressed",
@@ -779,8 +779,8 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-baby-250ml",
-          name: "Keyowa Kids & Baby Virgin 250ml",
+          id: "keyavo-baby-250ml",
+          name: "Keyavo Kids & Baby Virgin 250ml",
           volume: "250ml",
           smokePoint: "DHA Enhanced",
           tagline: "Essential brain and height nutrition for babies from 6 months. Mild, gentle taste.",
@@ -794,7 +794,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-giftset",
+          id: "keyavo-giftset",
           name: "Gourmet Chef Deluxe Gift Set",
           volume: "Set of 3",
           smokePoint: "Lacquered Wood Box",
@@ -803,7 +803,7 @@ export const TRANSLATIONS = {
           description: "An elegant gesture of care for family, culinary lovers and business partners. Includes 1x Extra Virgin 500ml, 1x Mini Dropper 100ml, 1x Baby Virgin 250ml, plus a carved walnut tasting spoon.",
           features: [
             "Handcrafted luxury wooden box with golden satin lining",
-            "Includes all 3 flagship Keyowa avocado oil creations",
+            "Includes all 3 flagship Keyavo avocado oil creations",
             "Complimentary walnut spoon & Michelin recipe booklet",
             "Custom laser-engraved greeting card upon request",
           ],
@@ -828,7 +828,7 @@ export const TRANSLATIONS = {
           desc: "No toxic acrolein smoke or bitter burnt aftertaste, keeping open gourmet kitchens pure and fresh.",
         },
       ],
-      chefQuote: "Keyowa avocado oil is our golden secret to achieving an immaculate caramelized crust and decadent French emulsified sauces that no other oil can replicate.",
+      chefQuote: "Keyavo avocado oil is our golden secret to achieving an immaculate caramelized crust and decadent French emulsified sauces that no other oil can replicate.",
       chefName: "Alain Vu",
       chefRole: "Executive Chef • 5-Star Luxury Dining",
       featuredTitle: "Signature 5-Star Chef Selections",
@@ -844,18 +844,18 @@ export const TRANSLATIONS = {
       servings: "2 servings",
       calories: "380 kcal / serving",
       recipeTitle: "Pan-Seared Chicken Breast & Passion Fruit Avocado Vinaigrette",
-      recipeDesc: "Chicken breast remains extraordinarily juicy when seared with Keyowa avocado oil at 220°C, harmoniously balanced by a velvety passion fruit vinaigrette.",
+      recipeDesc: "Chicken breast remains extraordinarily juicy when seared with Keyavo avocado oil at 220°C, harmoniously balanced by a velvety passion fruit vinaigrette.",
       secretTitle: "3-Step Chef Secret Technique:",
-      step1: "Marinate: Gently massage chicken breast with Himalayan pink salt, cracked black pepper, and 1 tbsp of Keyowa avocado oil to deeply infuse nutrients.",
+      step1: "Marinate: Gently massage chicken breast with Himalayan pink salt, cracked black pepper, and 1 tbsp of Keyavo avocado oil to deeply infuse nutrients.",
       step2: "High-Heat Sear: Heat skillet with 1 tbsp avocado oil to 220°C; sear 4 mins per side. Zero burning guarantees golden crust and succulent juiciness.",
-      step3: "Emulsify Sauce: Whisk 3 tbsp Keyowa avocado oil with raw honey, fresh passion fruit pulp, and Dijon mustard for a glossy, decadent dressing.",
+      step3: "Emulsify Sauce: Whisk 3 tbsp Keyavo avocado oil with raw honey, fresh passion fruit pulp, and Dijon mustard for a glossy, decadent dressing.",
       downloadBtn: "Download Full Recipe Guide (PDF)",
       downloadedMsg: "Ebook sent directly to your inbox!",
       btnBuyForRecipe: "Order avocado oil for this recipe",
     },
     callout: {
       badge: "GOLD QUALITY PROMISE",
-      title: "Keyowa guarantees 100% pure avocado oil, zero blending, zero industrial additives.",
+      title: "Keyavo guarantees 100% pure avocado oil, zero blending, zero industrial additives.",
       desc: "Directly pressed from fresh, mature Hass avocados. We offer a 200% money-back guarantee if any trace of secondary oil is discovered.",
       statLabel: "Highest culinary smoke point for home kitchens",
       btn: "Order Today",
@@ -869,7 +869,7 @@ export const TRANSLATIONS = {
           tag: "EAT-CLEAN GASTRONOMY",
           name: "Lan Chi",
           title: "Food Blogger & Clean-Eating Coach",
-          quote: "Ever since switching to Keyowa, searing and stir-frying never produce burnt oil fumes. The subtle nutty aroma is simply divine!",
+          quote: "Ever since switching to Keyavo, searing and stir-frying never produce burnt oil fumes. The subtle nutty aroma is simply divine!",
         },
         {
           tag: "DERMATOLOGY & GLOW",
@@ -881,7 +881,7 @@ export const TRANSLATIONS = {
           tag: "5-STAR RESTAURANT CHEF",
           name: "Chef Hoang Tung",
           title: "Executive Chef & Culinary Judge",
-          quote: "To achieve that crisp caramelized steak crust while maintaining melt-in-your-mouth tenderness, Keyowa's 270°C smoke point is my greatest secret.",
+          quote: "To achieve that crisp caramelized steak crust while maintaining melt-in-your-mouth tenderness, Keyavo's 270°C smoke point is my greatest secret.",
         },
         {
           tag: "INFANT NUTRITION",
@@ -897,7 +897,7 @@ export const TRANSLATIONS = {
       desc: "Request our wholesale commercial price list and receive complimentary 100ml tasting samples.",
       btn: "Request Free Sample",
       modalBadge: "RESTAURANT & WHOLESALE INQUIRIES",
-      modalTitle: "Request Free Keyowa Avocado Oil Sample",
+      modalTitle: "Request Free Keyavo Avocado Oil Sample",
       modalSub: "Our culinary consultant will contact you within 24 hours and dispatch tasting samples directly to your kitchen.",
       successTitle: "Inquiry Received Successfully!",
       successSub: "Our B2B team will reach out to you shortly.",
@@ -912,7 +912,7 @@ export const TRANSLATIONS = {
     },
     newsletter: {
       badge: "EXCLUSIVE FIRST ORDER PRIVILEGE",
-      title: "Get 15% off your very first bottle of Keyowa.",
+      title: "Get 15% off your very first bottle of Keyavo.",
       desc: "Subscribe with your email to receive an instant 15% promo code and our free \"50 Michelin Eat-Clean Recipes\" eBook.",
       placeholder: "Enter your email address...",
       btn: "Claim 15% Code",
@@ -931,8 +931,8 @@ export const TRANSLATIONS = {
       d4: "200% refund if purity compromised",
     },
     footer: {
-      mission: "KEYOWA delivers artisanal cold-pressed avocado oil to elevate wholesome culinary safety and cardiovascular wellness with 100% premium Vietnamese Hass avocados.",
-      colAboutTitle: "About KEYOWA",
+      mission: "KEYAVO delivers artisanal cold-pressed avocado oil to elevate wholesome culinary safety and cardiovascular wellness with 100% premium Vietnamese Hass avocados.",
+      colAboutTitle: "About KEYAVO",
       aboutLinks: [
         "Brand Story",
         "Dak Lak Organic Orchards",
@@ -950,10 +950,10 @@ export const TRANSLATIONS = {
       ],
       colContactTitle: "Contact & Support",
       hotline: "+84 1900 888 666 (8:00 - 21:00)",
-      email: "lienhe@keyowa.vn",
+      email: "lienhe@keyavo.vn",
       factory: "Mill Facility: Krong Nang, Dak Lak Province",
       office: "Corporate Office: Landmark 81, Ho Chi Minh City",
-      copyright: "© 2026 KEYOWA Cold-Pressed Avocado Oil. All rights reserved.",
+      copyright: "© 2026 KEYAVO Cold-Pressed Avocado Oil. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
       guarantee: "Quality Guarantee",
@@ -966,9 +966,9 @@ export const TRANSLATIONS = {
       emptyTitle: "Your bag is empty",
       emptyDesc: "Choose our signature cold-pressed avocado oil to protect your family's daily wellness!",
       exploreBtn: "Explore Products Now",
-      couponPlaceholder: "Promo code (Try: KEYOWA15)",
+      couponPlaceholder: "Promo code (Try: KEYAVO15)",
       applyBtn: "Apply",
-      couponApplied: "✓ 15% discount applied (Code: KEYOWA15)",
+      couponApplied: "✓ 15% discount applied (Code: KEYAVO15)",
       couponError: "Invalid promo code",
       subtotal: "Subtotal",
       voucher: "15% Voucher",
@@ -1005,7 +1005,7 @@ export const TRANSLATIONS = {
         continueShopping: "Continue Shopping",
         deliveryTo: "Delivering to:",
         successTitle: "Order Placed Successfully!",
-        successDesc: "Thank you for choosing Keyowa. Our customer concierge will contact you shortly to confirm delivery.",
+        successDesc: "Thank you for choosing Keyavo. Our customer concierge will contact you shortly to confirm delivery.",
       },
     },
     quickView: {
@@ -1021,12 +1021,12 @@ export const TRANSLATIONS = {
       title: "Privacy Policy",
       subtitle: "We are committed to safeguarding your personal data and privacy in full compliance with international standards.",
       lastUpdated: "Last Updated: September 2026",
-      intro: "Welcome to Keyowa Vietnam. We understand that your privacy is paramount. This policy outlines how we collect, use, store, and protect your personal information when you browse our website or purchase our artisanal cold-pressed avocado oil.",
+      intro: "Welcome to Keyavo Vietnam. We understand that your privacy is paramount. This policy outlines how we collect, use, store, and protect your personal information when you browse our website or purchase our artisanal cold-pressed avocado oil.",
       sections: [
         {
           id: "collection",
           title: "1. Information We Collect",
-          content: "When you interact with Keyowa (placing an order, claiming a 15% discount voucher, or requesting support), we may collect the following details:",
+          content: "When you interact with Keyavo (placing an order, claiming a 15% discount voucher, or requesting support), we may collect the following details:",
           bullets: [
             "Contact & identity details: Full name, phone number, email address, and shipping address.",
             "Transaction records: Purchased items, order quantities, delivery notes, and purchase history.",
@@ -1047,7 +1047,7 @@ export const TRANSLATIONS = {
         {
           id: "security",
           title: "3. Data Security & Encryption",
-          content: "Keeping your data safe is a core commitment at Keyowa:",
+          content: "Keeping your data safe is a core commitment at Keyavo:",
           bullets: [
             "All web connections are protected by bank-grade 256-bit SSL encryption protocols.",
             "Payment card details are processed directly by certified international payment gateways; we do not store your credit card credentials.",
@@ -1070,7 +1070,7 @@ export const TRANSLATIONS = {
           content: "If you have any questions, feedback, or requests regarding this Privacy Policy, please contact us:",
           bullets: [
             "Customer Support Hotline: 1900 888 666 (8:00 AM - 9:00 PM GMT+7)",
-            "Dedicated Privacy Email: lienhe@keyowa.vn",
+            "Dedicated Privacy Email: lienhe@keyavo.vn",
             "Representative Office: Landmark 81 Tower, Ho Chi Minh City, Vietnam",
           ],
         },
@@ -1083,7 +1083,7 @@ export const TRANSLATIONS = {
       title: "Terms of Service",
       subtitle: "Clear, transparent terms designed to ensure complete protection and satisfaction for our valued customers.",
       lastUpdated: "Last Updated: September 2026",
-      intro: "Welcome to the official online boutique of Keyowa Vietnam. By browsing, accessing, or placing orders on this website, you agree to comply with the terms and conditions outlined below.",
+      intro: "Welcome to the official online boutique of Keyavo Vietnam. By browsing, accessing, or placing orders on this website, you agree to comply with the terms and conditions outlined below.",
       sections: [
         {
           id: "general",
@@ -1102,7 +1102,7 @@ export const TRANSLATIONS = {
           bullets: [
             "All prices listed on the website are final retail prices inclusive of Value Added Tax (VAT).",
             "We offer 3 flexible and secure payment methods: Cash on Delivery (COD), Instant 24/7 QR transfer, and International Credit/Debit Cards.",
-            "When promotional discount codes (such as KEYOWA15) are applied, discounts are deducted directly before final confirmation.",
+            "When promotional discount codes (such as KEYAVO15) are applied, discounts are deducted directly before final confirmation.",
           ],
         },
         {
@@ -1130,7 +1130,7 @@ export const TRANSLATIONS = {
           title: "5. Intellectual Property & Inquiries",
           content: "Brand copyright protection and inquiry channels:",
           bullets: [
-            "All trademarks, logos, imagery, and culinary recipe materials belong exclusively to Keyowa Vietnam.",
+            "All trademarks, logos, imagery, and culinary recipe materials belong exclusively to Keyavo Vietnam.",
             "Any inquiries or concerns will be investigated and resolved promptly within 12 business hours via hotline 1900 888 666.",
           ],
         },
@@ -1143,7 +1143,7 @@ export const TRANSLATIONS = {
       title: "Quality Guarantee",
       subtitle: "5 sacred commitments behind every drop of our Michelin-grade extra virgin cold-pressed avocado oil.",
       lastUpdated: "Effective for the entire 2026 harvest season",
-      intro: "At Keyowa, quality is not merely an aspiration—it is our brand's foundation. Every bottle delivered to your doorstep represents the perfect harmony of authentic natural terroir and state-of-the-art cold-press extraction technology.",
+      intro: "At Keyavo, quality is not merely an aspiration—it is our brand's foundation. Every bottle delivered to your doorstep represents the perfect harmony of authentic natural terroir and state-of-the-art cold-press extraction technology.",
       pillars: [
         {
           number: "01",
@@ -1177,7 +1177,7 @@ export const TRANSLATIONS = {
           number: "05",
           tag: "HONOR PLEDGE",
           title: "200% Money-Back Guarantee",
-          desc: "Keyowa unconditionally promises a 200% refund of your order value if any independent lab test detects chemical solvent traces, preservatives, or foreign oil adulteration in our products.",
+          desc: "Keyavo unconditionally promises a 200% refund of your order value if any independent lab test detects chemical solvent traces, preservatives, or foreign oil adulteration in our products.",
           highlight: "Unconditional compensation guarantee",
         },
       ],
@@ -1219,7 +1219,7 @@ export const TRANSLATIONS = {
       skip: "後で確認する（サイトを見る）",
       autoCloseTimer: "自動で閉じます：残り",
       seconds: "秒",
-      successMsg: "クーポンコード KEYOWA15 と電子書籍をお送りしました！",
+      successMsg: "クーポンコード KEYAVO15 と電子書籍をお送りしました！",
       successCopy: "15%割引コードをクリップボードにコピーしました！",
       leftStamp: "KEYAVO PRIVILEGE VIETNAM",
       leftPill: "未精製低温圧搾",
@@ -1229,7 +1229,7 @@ export const TRANSLATIONS = {
       leftSub: "35軒以上のミシュラン級ファインダイニング及び一流シェフ推奨。",
     },
     nav: {
-      about: "Keyowaについて",
+      about: "Keyavoについて",
       products: "商品一覧",
       chefCollection: "五つ星シェフ厳選",
       process: "調理の技と製法",
@@ -1308,16 +1308,16 @@ export const TRANSLATIONS = {
     smokePoint: {
       badge: "最高峰の安全性",
       title: "驚異の発煙点270°C：強火ソテーも揚げ物も安心・安全。",
-      desc: "食用油は発煙点を超えると分解され、有害物質アクロレインが発生します。Keyowaアボカドオイルは270°Cの超耐熱性能で、油煙や焦げ付きの不安を解消します。",
+      desc: "食用油は発煙点を超えると分解され、有害物質アクロレインが発生します。Keyavoアボカドオイルは270°Cの超耐熱性能で、油煙や焦げ付きの不安を解消します。",
       expertTitle: "グエン・チョン・ギア教授",
       expertRole: "食品毒性学・栄養学専門家",
       expertBadge: "専門医推奨",
       expertQuote: "アボカドオイルは高温加熱調理における最良の選択肢です。有害な煙が出ず、栄養価も最高水準で維持されます。",
       chartTitle: "食用油の発煙点比較",
       chartSub: "有害分解が始まる限界温度の比較検証",
-      recommendation: "推奨：Keyowaアボカドオイルはエキストラバージンオリーブオイル（190°C）の1.4倍の耐熱性を誇ります。",
+      recommendation: "推奨：Keyavoアボカドオイルはエキストラバージンオリーブオイル（190°C）の1.4倍の耐熱性を誇ります。",
       items: [
-        { name: "KEYOWA コールドプレスアボカド油", pointText: "270°C", badge: "最高レベルの安全性", sub: "高温調理に最適" },
+        { name: "KEYAVO コールドプレスアボカド油", pointText: "270°C", badge: "最高レベルの安全性", sub: "高温調理に最適" },
         { name: "精製ココナッツオイル", pointText: "232°C", badge: "良 好", sub: "揚げ物可" },
         { name: "キャノーラ油 / ひまわり油", pointText: "204°C", badge: "普 通", sub: "強火調理は控える" },
         { name: "エキストラバージンオリーブ油", pointText: "190°C", badge: "高温加熱で劣化しやすい", sub: "生食専用推奨" },
@@ -1338,8 +1338,8 @@ export const TRANSLATIONS = {
       added: "追加済み",
       items: [
         {
-          id: "keyowa-500ml",
-          name: "Keyowa エキストラバージン 500ml",
+          id: "keyavo-500ml",
+          name: "Keyavo エキストラバージン 500ml",
           volume: "500ml",
           smokePoint: "発煙点 270°C",
           tagline: "高温ステーキソテー、揚げ物、星付きレストランのドレッシングに最適。",
@@ -1353,7 +1353,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-dropper-100ml",
+          id: "keyavo-dropper-100ml",
           name: "ミニスポイトボトル 100ml (美容＆離乳食)",
           volume: "100ml",
           smokePoint: "低温圧搾",
@@ -1368,8 +1368,8 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-baby-250ml",
-          name: "Keyowa キッズ＆ベビー用 250ml",
+          id: "keyavo-baby-250ml",
+          name: "Keyavo キッズ＆ベビー用 250ml",
           volume: "250ml",
           smokePoint: "DHA強化",
           tagline: "離乳期からの脳と成長をサポートするマイルドで飲みやすい特別なオイル。",
@@ -1383,7 +1383,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-giftset",
+          id: "keyavo-giftset",
           name: "グルメシェフ 木箱入りギフトセット",
           volume: "3本セット",
           smokePoint: "漆塗り特製木箱",
@@ -1392,7 +1392,7 @@ export const TRANSLATIONS = {
           description: "健康を気遣う大切な方や取引先へのご贈答に最適。500ml、100mlスポイト、250mlベビー用の3本に、特製ウォールナット製計量スプーンを添えました。",
           features: [
             "金色シルク敷きの上質な木箱パッケージ",
-            "Keyowaの代表作3本を一度に味わえる贅沢仕様",
+            "Keyavoの代表作3本を一度に味わえる贅沢仕様",
             "天然木スプーン＆星付きシェフレシピ集付属",
             "ご希望に応じたメッセージ刻印サービス対応",
           ],
@@ -1417,7 +1417,7 @@ export const TRANSLATIONS = {
           desc: "油煙や焦げ臭が発生しないため、オープンキッチンの上質な空間とピュアな風味を損ないません。",
         },
       ],
-      chefQuote: "Keyowaアボカドオイルは、理想的な焼き色とフランス料理の繊細な乳化ソースを作るための唯一無二の黄金のオイルです。",
+      chefQuote: "Keyavoアボカドオイルは、理想的な焼き色とフランス料理の繊細な乳化ソースを作るための唯一無二の黄金のオイルです。",
       chefName: "アラン・ヴー",
       chefRole: "総料理長 • 5つ星ラグジュアリーホテル",
       featuredTitle: "五つ星シェフ愛用の代表作",
@@ -1433,9 +1433,9 @@ export const TRANSLATIONS = {
       servings: "2人前",
       calories: "380 kcal / 1食",
       recipeTitle: "鶏むね肉のグリル＆パッションフルーツアボカドヴィネグレット",
-      recipeDesc: "Keyowaアボカドオイルを使って220°Cで香ばしく焼き上げた鶏むね肉は驚くほどジューシー。甘酸っぱく濃厚なパッションフルーツソースとの相性は抜群です。",
+      recipeDesc: "Keyavoアボカドオイルを使って220°Cで香ばしく焼き上げた鶏むね肉は驚くほどジューシー。甘酸っぱく濃厚なパッションフルーツソースとの相性は抜群です。",
       secretTitle: "シェフ直伝の3ステップ:",
-      step1: "下味をつける: ヒマラヤ岩塩、粗挽き黒胡椒、Keyowaアボカドオイル大さじ1を鶏肉にすり込み、しっとりと旨味を閉じ込めます。",
+      step1: "下味をつける: ヒマラヤ岩塩、粗挽き黒胡椒、Keyavoアボカドオイル大さじ1を鶏肉にすり込み、しっとりと旨味を閉じ込めます。",
       step2: "高温で焼き上げる: フライパンにオイルを引いて220°Cに熱し、片面4分ずつソテー。油煙が出ず、表面は黄金色で中は肉汁たっぷり。",
       step3: "ソースのエマルジョン: アボカドオイル大さじ3、蜂蜜、パッションフルーツ果汁、ディジョンマスタードをよく混ぜて艶やかなソースに仕上げます。",
       downloadBtn: "全レシピ集を無料ダウンロード (PDF)",
@@ -1444,7 +1444,7 @@ export const TRANSLATIONS = {
     },
     callout: {
       badge: "黄金の品質保証",
-      title: "Keyowaは100%純粋な天然アボカドオイルをお約束します。",
+      title: "Keyavoは100%純粋な天然アボカドオイルをお約束します。",
       desc: "化学ブレンド・添加物は一切不使用。他種オイルの混入が確認された場合、200%全額返金いたします。",
       statLabel: "家庭用食用油として世界最高水準の発煙点",
       btn: "今すぐ注文する",
@@ -1458,7 +1458,7 @@ export const TRANSLATIONS = {
           tag: "ヘルシー・イートクリーン",
           name: "ラン・チー",
           title: "フードブロガー＆食生活アドバイザー",
-          quote: "Keyowaを使い始めてから、油臭さが一切なく、料理が驚くほど軽やかに仕上がります。家族全員のお気に入りです！",
+          quote: "Keyavoを使い始めてから、油臭さが一切なく、料理が驚くほど軽やかに仕上がります。家族全員のお気に入りです！",
         },
         {
           tag: "美肌・スキンケア",
@@ -1470,7 +1470,7 @@ export const TRANSLATIONS = {
           tag: "5つ星レストランシェフ",
           name: "ホアン・トゥン シェフ",
           title: "総料理長・料理コンクール審査員",
-          quote: "肉汁を閉じ込めた極上のステーキを焼き上げるために、270°Cまで耐えられるKeyowaオイルは私の厨房に欠かせない秘密兵器です。",
+          quote: "肉汁を閉じ込めた極上のステーキを焼き上げるために、270°Cまで耐えられるKeyavoオイルは私の厨房に欠かせない秘密兵器です。",
         },
         {
           tag: "赤ちゃんの離乳食",
@@ -1520,8 +1520,8 @@ export const TRANSLATIONS = {
       d4: "品質不備時は200%返金保証",
     },
     footer: {
-      mission: "KEYOWAは、ダクラク産ハス種アボカド100%から生まれた至高のコールドプレスオイルで、安心・健康な食卓と心臓の健康を支えます。",
-      colAboutTitle: "KEYOWAについて",
+      mission: "KEYAVOは、ダクラク産ハス種アボカド100%から生まれた至高のコールドプレスオイルで、安心・健康な食卓と心臓の健康を支えます。",
+      colAboutTitle: "KEYAVOについて",
       aboutLinks: [
         "ブランドストーリー",
         "ダクラク産直農園",
@@ -1539,10 +1539,10 @@ export const TRANSLATIONS = {
       ],
       colContactTitle: "お問い合わせ",
       hotline: "+84 1900 888 666 (8:00 - 21:00)",
-      email: "lienhe@keyowa.vn",
+      email: "lienhe@keyavo.vn",
       factory: "圧搾工場：ベトナム・ダクラク省クロンナン",
       office: "代表オフィス：ホーチミン市 ランドマーク81",
-      copyright: "© 2026 KEYOWA Cold-Pressed Avocado Oil. 無断転載を禁じます。",
+      copyright: "© 2026 KEYAVO Cold-Pressed Avocado Oil. 無断転載を禁じます。",
       privacy: "プライバシーポリシー",
       terms: "利用規約",
       guarantee: "品質保証規定",
@@ -1555,9 +1555,9 @@ export const TRANSLATIONS = {
       emptyTitle: "カートに商品が入っていません",
       emptyDesc: "上質なコールドプレスアボカドオイルで、ご家族の健康習慣を始めませんか？",
       exploreBtn: "商品を見る",
-      couponPlaceholder: "クーポンコード (入力例: KEYOWA15)",
+      couponPlaceholder: "クーポンコード (入力例: KEYAVO15)",
       applyBtn: "適用",
-      couponApplied: "✓ 15%割引が適用されました (コード: KEYOWA15)",
+      couponApplied: "✓ 15%割引が適用されました (コード: KEYAVO15)",
       couponError: "無効なクーポンコードです",
       subtotal: "小計",
       voucher: "15%OFFクーポン",
@@ -1610,7 +1610,7 @@ export const TRANSLATIONS = {
       title: "プライバシーポリシー",
       subtitle: "国際基準に準拠し、お客様の個人情報とプライバシーを厳格に保護することをお約束します。",
       lastUpdated: "最終更新日：2026年9月",
-      intro: "Keyowa Vietnamの公式ウェブサイトへようこそ。当社はお客様のプライバシーを最重要事項として尊重しています。本ポリシーは、当社の低温圧搾アボカドオイルをご購入いただく際にお預かりする個人情報の収集、利用、保管、保護方針を定めたものです。",
+      intro: "Keyavo Vietnamの公式ウェブサイトへようこそ。当社はお客様のプライバシーを最重要事項として尊重しています。本ポリシーは、当社の低温圧搾アボカドオイルをご購入いただく際にお預かりする個人情報の収集、利用、保管、保護方針を定めたものです。",
       sections: [
         {
           id: "collection",
@@ -1636,7 +1636,7 @@ export const TRANSLATIONS = {
         {
           id: "security",
           title: "3. データの安全性と暗号化",
-          content: "お客様の情報の安全性確保は、Keyowaの最優先責務です：",
+          content: "お客様の情報の安全性確保は、Keyavoの最優先責務です：",
           bullets: [
             "本サイト上のすべての通信は、金融機関基準の256ビットSSL暗号化通信により保護されています。",
             "クレジットカード情報は国際認証を受けた安全な決済代行会社を通じて処理され、当社サーバーにカード番号を保存することはありません。",
@@ -1659,7 +1659,7 @@ export const TRANSLATIONS = {
           content: "プライバシーポリシーに関するご質問やご要望は、下記窓口までお気軽にお問い合わせください：",
           bullets: [
             "カスタマーホットライン：1900 888 666 (ベトナム時間 8:00 - 21:00)",
-            "専用メールアドレス：lienhe@keyowa.vn",
+            "専用メールアドレス：lienhe@keyavo.vn",
             "代表オフィス：Landmark 81, Ho Chi Minh City, Vietnam",
           ],
         },
@@ -1672,7 +1672,7 @@ export const TRANSLATIONS = {
       title: "利用規約",
       subtitle: "お客様に安心・安全にお買い物をお楽しみいただくための明確かつ透明性の高いお約束です。",
       lastUpdated: "最終更新日：2026年9月",
-      intro: "Keyowa Vietnam公式オンラインショップのご利用条件を定めたものです。本サイトの閲覧、ご利用、および商品のご注文をもって、本規約に同意いただいたものとみなします。",
+      intro: "Keyavo Vietnam公式オンラインショップのご利用条件を定めたものです。本サイトの閲覧、ご利用、および商品のご注文をもって、本規約に同意いただいたものとみなします。",
       sections: [
         {
           id: "general",
@@ -1691,7 +1691,7 @@ export const TRANSLATIONS = {
           bullets: [
             "サイト上の表示価格はすべて消費税（VAT）込みの確定お支払い価格です。",
             "代金引換（COD）、24時間即時反映の銀行振込・QR決済、各種クレジットカード（Visa, Master）に対応しています。",
-            "クーポンコード（KEYOWA15など）をご利用の場合、ご注文確定前に割引額が即時反映されます。",
+            "クーポンコード（KEYAVO15など）をご利用の場合、ご注文確定前に割引額が即時反映されます。",
           ],
         },
         {
@@ -1719,7 +1719,7 @@ export const TRANSLATIONS = {
           title: "5. 知的財産権および紛争解決",
           content: "ブランド著作権の保護と苦情対応窓口：",
           bullets: [
-            "本サイト上の商標、ロゴ、画像、製法解説、レシピコンテンツ等の知的財産権はKeyowa Vietnamに帰属します。",
+            "本サイト上の商標、ロゴ、画像、製法解説、レシピコンテンツ等の知的財産権はKeyavo Vietnamに帰属します。",
             "商品に関するお問い合わせや苦情は、ホットライン1900 888 666にて12営業時間以内に誠心誠意対応いたします。",
           ],
         },
@@ -1732,7 +1732,7 @@ export const TRANSLATIONS = {
       title: "品質保証基準",
       subtitle: "星付きレストランのシェフに選ばれる、一番搾りコールドプレスアボカドオイルの5大黄金品質。",
       lastUpdated: "2026年収穫期全ロットに適用",
-      intro: "Keyowaにとって、品質とは単なる指標ではなくブランドの存在意義そのものです。お客様にお届けする一滴一滴は、ピュアな自然の恵みと最先端の低温圧搾技術の結晶です。",
+      intro: "Keyavoにとって、品質とは単なる指標ではなくブランドの存在意義そのものです。お客様にお届けする一滴一滴は、ピュアな自然の恵みと最先端の低温圧搾技術の結晶です。",
       pillars: [
         {
           number: "01",
@@ -1808,7 +1808,7 @@ export const TRANSLATIONS = {
       skip: "先去浏览网站",
       autoCloseTimer: "秒后自动关闭：",
       seconds: "秒",
-      successMsg: "优惠码 KEYOWA15 与电子食谱已发送至您的邮箱！",
+      successMsg: "优惠码 KEYAVO15 与电子食谱已发送至您的邮箱！",
       successCopy: "85折优惠码已自动复制至剪贴板！",
       leftStamp: "KEYAVO PRIVILEGE VIETNAM",
       leftPill: "物理初榨冷压",
@@ -1818,7 +1818,7 @@ export const TRANSLATIONS = {
       leftSub: "携手35+家米其林星级高端餐厅及知名行政总厨。",
     },
     nav: {
-      about: "关于Keyowa",
+      about: "关于Keyavo",
       products: "精选产品",
       chefCollection: "五星主厨专选",
       process: "烹饪艺术与工艺",
@@ -1866,7 +1866,7 @@ export const TRANSLATIONS = {
     process: {
       badge: "独家锁鲜科技",
       title: "三级低温冷榨工艺，完整保留生物活性营养。",
-      desc: "彻底有别于200°C高温化学精炼油，Keyowa完整保留天然维生素E、叶黄素以及纯净单不饱和脂肪酸Omega-9。",
+      desc: "彻底有别于200°C高温化学精炼油，Keyavo完整保留天然维生素E、叶黄素以及纯净单不饱和脂肪酸Omega-9。",
       steps: [
         {
           stepNumber: "01",
@@ -1897,16 +1897,16 @@ export const TRANSLATIONS = {
     smokePoint: {
       badge: "最高食品安全准则",
       title: "270°C极限烟点：无惧高温爆炒、香煎酥脆，健康安心。",
-      desc: "烹调油一旦超过发烟点，油脂结构即遭破坏并产生致癌物丙烯醛。Keyowa牛油果油以270°C超高烟点，让您尽情享受煎炒烘烤，远离有害油烟。",
+      desc: "烹调油一旦超过发烟点，油脂结构即遭破坏并产生致癌物丙烯醛。Keyavo牛油果油以270°C超高烟点，让您尽情享受煎炒烘烤，远离有害油烟。",
       expertTitle: "黄仲义 教授",
       expertRole: "食品营养学与毒理学资深专家",
       expertBadge: "权威专家力荐",
       expertQuote: "牛油果油是高温爆炒和香煎的不二之选。不冒刺鼻油烟、不起苦味，最大程度锁住食物营养。",
       chartTitle: "食用油发烟点对比表",
       chartSub: "油脂在发生有害分解前的耐受极限温度",
-      recommendation: "专家建议：Keyowa牛油果油耐热度高达特级初榨橄榄油（190°C）的1.4倍，全面守护心脑血管与呼吸道健康。",
+      recommendation: "专家建议：Keyavo牛油果油耐热度高达特级初榨橄榄油（190°C）的1.4倍，全面守护心脑血管与呼吸道健康。",
       items: [
-        { name: "KEYOWA 冷压特级初榨牛油果油", pointText: "270°C", badge: "最高安全等级", sub: "高温煎炒爆炒首选" },
+        { name: "KEYAVO 冷压特级初榨牛油果油", pointText: "270°C", badge: "最高安全等级", sub: "高温煎炒爆炒首选" },
         { name: "精炼椰子油", pointText: "232°C", badge: "良好表现", sub: "可用于炸物" },
         { name: "芥花籽油 / 葵花籽油", pointText: "204°C", badge: "中等耐热", sub: "尽量避免高温长时间加热" },
         { name: "特级初榨橄榄油", pointText: "190°C", badge: "高温极易焦糊产生苦味", sub: "仅建议凉拌生饮" },
@@ -1927,8 +1927,8 @@ export const TRANSLATIONS = {
       added: "已添加",
       items: [
         {
-          id: "keyowa-500ml",
-          name: "Keyowa 特级初榨牛油果油 500ml",
+          id: "keyavo-500ml",
+          name: "Keyavo 特级初榨牛油果油 500ml",
           volume: "500ml",
           smokePoint: "发烟点 270°C",
           tagline: "专为高温香煎牛排、酥脆爆炒及星级沙拉油醋汁定制打造。",
@@ -1942,7 +1942,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-dropper-100ml",
+          id: "keyavo-dropper-100ml",
           name: "便携滴管装 100ml (天然护肤与辅食)",
           volume: "100ml",
           smokePoint: "物理冷榨",
@@ -1957,8 +1957,8 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-baby-250ml",
-          name: "Keyowa 婴幼儿辅食专用油 250ml",
+          id: "keyavo-baby-250ml",
+          name: "Keyavo 婴幼儿辅食专用油 250ml",
           volume: "250ml",
           smokePoint: "DHA强化配方",
           tagline: "助力宝宝大脑黄金发育期与骨骼成长，口感柔和清润，促进食欲。",
@@ -1972,7 +1972,7 @@ export const TRANSLATIONS = {
           ],
         },
         {
-          id: "keyowa-giftset",
+          id: "keyavo-giftset",
           name: "米其林主厨奢华实木礼盒装",
           volume: "3瓶典藏装",
           smokePoint: "漆艺实木礼盒",
@@ -1981,7 +1981,7 @@ export const TRANSLATIONS = {
           description: "为长辈、至亲与尊贵商务伙伴准备的诚挚心意。包含500ml烹饪装、100ml滴管装、250ml宝宝装各一瓶，附赠黑胡桃木量勺与精美食谱。",
           features: [
             "纯手工黑胡桃实木礼盒，内衬高雅金丝绸",
-            "一盒集齐Keyowa三大经典明星代表作",
+            "一盒集齐Keyavo三大经典明星代表作",
             "附赠实木量勺与米其林50道轻食烹饪手册",
             "支持激光定制专属贺卡祝福语",
           ],
@@ -2006,7 +2006,7 @@ export const TRANSLATIONS = {
           desc: "绝不产生呛人黑烟与变质异味，让开放式高端厨房与私厨空间始终保持优雅清爽。",
         },
       ],
-      chefQuote: "Keyowa牛油果油是我们打造外焦里嫩牛排与细腻法式乳化酱汁无可替代的黄金秘诀。",
+      chefQuote: "Keyavo牛油果油是我们打造外焦里嫩牛排与细腻法式乳化酱汁无可替代的黄金秘诀。",
       chefName: "Alain Vu",
       chefRole: "行政总厨 • 五星级奢华酒店",
       featuredTitle: "五星主厨专选代表作",
@@ -2024,7 +2024,7 @@ export const TRANSLATIONS = {
       recipeTitle: "香煎嫩鸡胸肉配百香果牛油果油醋汁沙拉",
       recipeDesc: "鸡胸肉在220°C高温牛油果油下快速锁水，外皮焦香金黄而内里鲜嫩多汁，佐以酸甜醇香的百香果乳化油醋汁，清爽解腻。",
       secretTitle: "主厨3步秘诀：",
-      step1: "肉质腌制：将鸡胸肉均匀抹上喜马拉雅粉盐、现磨黑胡椒碎与1汤匙Keyowa牛油果油，让珍贵油脂深入渗透肉质纤维。",
+      step1: "肉质腌制：将鸡胸肉均匀抹上喜马拉雅粉盐、现磨黑胡椒碎与1汤匙Keyavo牛油果油，让珍贵油脂深入渗透肉质纤维。",
       step2: "高温香煎：锅中热油至220°C，每面高温煎制4分钟。牛油果油绝不冒黑烟，锁住饱满肉汁，焦香诱人。",
       step3: "乳化调汁：取3汤匙牛油果油、天然野蜂蜜、1颗新鲜百香果汁与法式第戎芥末酱充分搅打，形成金黄光润的乳化酱汁。",
       downloadBtn: "免费下载完整食谱手册 (PDF)",
@@ -2033,7 +2033,7 @@ export const TRANSLATIONS = {
     },
     callout: {
       badge: "黄金品质坚守",
-      title: "Keyowa 承诺100%原果物理初榨，绝无任何勾兑或化学添加。",
+      title: "Keyavo 承诺100%原果物理初榨，绝无任何勾兑或化学添加。",
       desc: "直接从得乐鲜熟哈斯牛油果果肉中萃取。若检测出任何劣质掺假，假一赔十，全额赔付。",
       statLabel: "家庭厨房食用油全球最高发烟点",
       btn: "立即订购",
@@ -2047,7 +2047,7 @@ export const TRANSLATIONS = {
           tag: "轻食健康达人",
           name: "岚芝 (Lan Chi)",
           title: "美食博主 & 健康轻食导师",
-          quote: "换用Keyowa牛油果油后，爆炒和香煎再也没有呛鼻油烟味，淡淡的坚果奶油香气太让人着迷了，全家人都特别喜欢！",
+          quote: "换用Keyavo牛油果油后，爆炒和香煎再也没有呛鼻油烟味，淡淡的坚果奶油香气太让人着迷了，全家人都特别喜欢！",
         },
         {
           tag: "皮肤科医生测评",
@@ -2059,7 +2059,7 @@ export const TRANSLATIONS = {
           tag: "五星级名厨力荐",
           name: "黄松 主厨 (Chef Hoang Tung)",
           title: "行政总厨 & 国际烹饪赛事评委",
-          quote: "要想煎出焦香酥脆、内部却娇嫩多汁的顶级牛排，Keyowa耐受270°C的发烟点是我后厨不可替代的秘密法宝。",
+          quote: "要想煎出焦香酥脆、内部却娇嫩多汁的顶级牛排，Keyavo耐受270°C的发烟点是我后厨不可替代的秘密法宝。",
         },
         {
           tag: "科学精致育儿",
@@ -2075,7 +2075,7 @@ export const TRANSLATIONS = {
       desc: "获取专属批发商供货价目表，免费申领100ml专业品鉴样品装。",
       btn: "申领免费样品",
       modalBadge: "餐饮企业与渠道代理合作",
-      modalTitle: "免费申领Keyowa牛油果油样品",
+      modalTitle: "免费申领Keyavo牛油果油样品",
       modalSub: "我们的专业顾问将在24小时内与您联系，并将品鉴样品直邮送达您的后厨。",
       successTitle: "合作申请提交成功！",
       successSub: "我们的B2B大客户经理将尽快与您取得联系。",
@@ -2109,8 +2109,8 @@ export const TRANSLATIONS = {
       d4: "若发现成分不纯，双倍赔付",
     },
     footer: {
-      mission: "KEYOWA 致力于将顶级原果物理冷压牛油果油送入万千家庭后厨，用100%越南得乐优质原果守护现代人的健康饮食与心脑血管活力。",
-      colAboutTitle: "关于 KEYOWA",
+      mission: "KEYAVO 致力于将顶级原果物理冷压牛油果油送入万千家庭后厨，用100%越南得乐优质原果守护现代人的健康饮食与心脑血管活力。",
+      colAboutTitle: "关于 KEYAVO",
       aboutLinks: [
         "品牌起源故事",
         "得乐有机生态果园",
@@ -2128,10 +2128,10 @@ export const TRANSLATIONS = {
       ],
       colContactTitle: "联系我们与客服",
       hotline: "+84 1900 888 666 (8:00 - 21:00)",
-      email: "lienhe@keyowa.vn",
+      email: "lienhe@keyavo.vn",
       factory: "物理冷榨工厂：越南得乐省克容囊县",
       office: "品牌运营中心：胡志明市 Landmark 81 地标大厦",
-      copyright: "© 2026 KEYOWA Cold-Pressed Avocado Oil. 版权所有。",
+      copyright: "© 2026 KEYAVO Cold-Pressed Avocado Oil. 版权所有。",
       privacy: "隐私政策",
       terms: "服务条款",
       guarantee: "品质赔付承诺",
@@ -2144,9 +2144,9 @@ export const TRANSLATIONS = {
       emptyTitle: "购物袋暂无商品",
       emptyDesc: "挑选一瓶高品质物理初榨牛油果油，为全家开启健康纯净生活吧！",
       exploreBtn: "立即选购精品",
-      couponPlaceholder: "输入优惠券码 (试用: KEYOWA15)",
+      couponPlaceholder: "输入优惠券码 (试用: KEYAVO15)",
       applyBtn: "立即使用",
-      couponApplied: "✓ 85折优惠券已成功扣减 (代码: KEYOWA15)",
+      couponApplied: "✓ 85折优惠券已成功扣减 (代码: KEYAVO15)",
       couponError: "优惠码无效或已过期",
       subtotal: "商品小计",
       voucher: "85折优惠减免",
@@ -2183,7 +2183,7 @@ export const TRANSLATIONS = {
         continueShopping: "继续选购精品",
         deliveryTo: "收货信息:",
         successTitle: "订单提交成功！",
-        successDesc: "感谢您对Keyowa品质的信任。客服专员将尽快致电与您确认配送详情。",
+        successDesc: "感谢您对Keyavo品质的信任。客服专员将尽快致电与您确认配送详情。",
       },
     },
     quickView: {
@@ -2199,12 +2199,12 @@ export const TRANSLATIONS = {
       title: "隐私政策",
       subtitle: "我们严格恪守国际数据合规标准，竭诚守护您的个人信息安全与隐私权益。",
       lastUpdated: "最后更新：2026年9月",
-      intro: "欢迎访问Keyowa官方商城。我们深知个人隐私对您的重要性。本政策详细阐述了当您浏览网站或购买Keyowa特级初榨冷榨牛油果油时，我们如何合法收集、使用、存储及保护您的个人数据。",
+      intro: "欢迎访问Keyavo官方商城。我们深知个人隐私对您的重要性。本政策详细阐述了当您浏览网站或购买Keyavo特级初榨冷榨牛油果油时，我们如何合法收集、使用、存储及保护您的个人数据。",
       sections: [
         {
           id: "collection",
           title: "1. 信息收集范围",
-          content: "当您在Keyowa平台互动（下单购物、领取85折优惠券或咨询客服）时，我们可能会收集以下信息：",
+          content: "当您在Keyavo平台互动（下单购物、领取85折优惠券或咨询客服）时，我们可能会收集以下信息：",
           bullets: [
             "身份与联系方式：收货人姓名、联系电话、电子邮箱、详细收货地址。",
             "交易与订单记录：选购商品清单、数量、历史订单明细、配送备注。",
@@ -2225,7 +2225,7 @@ export const TRANSLATIONS = {
         {
           id: "security",
           title: "3. 数据安全与加密防护",
-          content: "用户数据安全是Keyowa最核心的原则：",
+          content: "用户数据安全是Keyavo最核心的原则：",
           bullets: [
             "全站通信均受国际金融级256位SSL加密技术保护，确保数据传输不被窃取。",
             "银行卡支付环节均通过具备合规牌照的国际支付网关完成，我们绝不存储您的银行卡密码或敏感支付凭据。",
@@ -2248,7 +2248,7 @@ export const TRANSLATIONS = {
           content: "如对本隐私政策有任何疑问、意见或权利申请，欢迎通过以下渠道与我们联络：",
           bullets: [
             "客户服务专线：1900 888 666 (每天 8:00 - 21:00)",
-            "隐私专员邮箱：lienhe@keyowa.vn",
+            "隐私专员邮箱：lienhe@keyavo.vn",
             "代表处地址：越南胡志明市Landmark 81大厦",
           ],
         },
@@ -2259,9 +2259,9 @@ export const TRANSLATIONS = {
       breadcrumbCurrent: "服务条款",
       badge: "商城运营与购买条款",
       title: "服务条款",
-      subtitle: "公开、透明的服务准则，为您在Keyowa官方商城的每一次选购提供全方位权益保障。",
+      subtitle: "公开、透明的服务准则，为您在Keyavo官方商城的每一次选购提供全方位权益保障。",
       lastUpdated: "最后更新：2026年9月",
-      intro: "欢迎使用Keyowa越南官方商城服务。当您浏览本网站或提交订单时，即表示您已阅读并同意遵守以下条款与条件。",
+      intro: "欢迎使用Keyavo越南官方商城服务。当您浏览本网站或提交订单时，即表示您已阅读并同意遵守以下条款与条件。",
       sections: [
         {
           id: "general",
@@ -2280,7 +2280,7 @@ export const TRANSLATIONS = {
           bullets: [
             "网站上所有展示的商品标价均为包含增值税（VAT）的最终实付结算价。",
             "支持3种便捷安全的支付方式：货到付款（COD）、24小时即时银联/扫码转账，以及国际信用卡/借记卡。",
-            "使用优惠券（如KEYOWA15）时，减免金额将在最终确认前自动抵扣。",
+            "使用优惠券（如KEYAVO15）时，减免金额将在最终确认前自动抵扣。",
           ],
         },
         {
@@ -2308,7 +2308,7 @@ export const TRANSLATIONS = {
           title: "5. 知识产权与投诉反馈",
           content: "品牌版权保护与售后维权热线：",
           bullets: [
-            "Keyowa全套注册商标、标识、产品包装、工艺图片及原创食谱均属Keyowa Vietnam独家知识产权。",
+            "Keyavo全套注册商标、标识、产品包装、工艺图片及原创食谱均属Keyavo Vietnam独家知识产权。",
             "购物过程中如有任何疑问或投诉，我们承诺在12个工作小时内通过热线1900 888 666给予妥善解决。",
           ],
         },
@@ -2321,7 +2321,7 @@ export const TRANSLATIONS = {
       title: "品质承诺与保证",
       subtitle: "5项严苛荣誉承诺，铸就米其林星厨级特级物理初榨牛油果油，全方位守护您与家人的饮食健康。",
       lastUpdated: "全面适用于2026年采收季所有生产批次",
-      intro: "在Keyowa，品质绝非一句口号，而是品牌立足之本。每一滴送到您手中的牛油果油，都是得乐省高原生机土壤与现代严谨低温压榨工艺的完美结晶。",
+      intro: "在Keyavo，品质绝非一句口号，而是品牌立足之本。每一滴送到您手中的牛油果油，都是得乐省高原生机土壤与现代严谨低温压榨工艺的完美结晶。",
       pillars: [
         {
           number: "01",
@@ -2355,7 +2355,7 @@ export const TRANSLATIONS = {
           number: "05",
           tag: "荣誉誓言",
           title: "200% 品质赔付承诺",
-          desc: "Keyowa郑重承诺：若经权威检测发现本品含有化学浸出溶剂正己烷、防腐剂或掺杂其他油品，我们将按订单实付金额的200%给予无条件赔付！",
+          desc: "Keyavo郑重承诺：若经权威检测发现本品含有化学浸出溶剂正己烷、防腐剂或掺杂其他油品，我们将按订单实付金额的200%给予无条件赔付！",
           highlight: "无条件2倍金额品质赔付保障",
         },
       ],

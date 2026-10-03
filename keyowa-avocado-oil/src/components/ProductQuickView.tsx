@@ -42,7 +42,7 @@ export default function ProductQuickView() {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
-      <div className="bg-white rounded-3xl max-w-2xl w-full border border-[#E7DFD2] shadow-2xl overflow-hidden relative animate-scale-in">
+      <div className="bg-white rounded-3xl max-w-2xl w-full border border-[#E7DFD2] shadow-2xl overflow-hidden relative animate-scale-in max-h-[92vh] overflow-y-auto">
         <button
           onClick={() => setQuickViewProduct(null)}
           className="absolute top-4 right-4 z-10 p-2 text-gray-400 hover:text-gray-700 rounded-full hover:bg-gray-100 transition-all duration-300 hover:rotate-90 hover:scale-110 active:scale-95 cursor-pointer"

@@ -19,14 +19,34 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-[#1D3B2A]">
           {/* Column 1: Brand & Mission (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
-            <div className="flex flex-col">
-              <span className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-white flex items-center gap-1.5">
-                KEYOWA
-                <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              </span>
-              <span className="text-[10px] uppercase tracking-[0.2em] text-emerald-400/80 font-semibold -mt-1">
-                Cold-Pressed Avocado Oil
-              </span>
+            <div className="flex items-center gap-2.5">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#1C3E2B] to-[#0D1F15] border border-emerald-500/40 flex items-center justify-center flex-shrink-0 shadow-lg shadow-emerald-950/60">
+                <svg className="w-6 h-6" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="footerAvoGrad" x1="6" y1="4" x2="26" y2="28" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#6EE7B7" />
+                      <stop offset="0.5" stopColor="#10B981" />
+                      <stop offset="1" stopColor="#065F46" />
+                    </linearGradient>
+                    <linearGradient id="footerGoldDrop" x1="16" y1="12" x2="16" y2="24" gradientUnits="userSpaceOnUse">
+                      <stop stopColor="#FDE047" />
+                      <stop offset="1" stopColor="#F59E0B" />
+                    </linearGradient>
+                  </defs>
+                  <path d="M16 4C11.5 4 8 8.5 8 15C8 21.5 11.5 27 16 27C20.5 27 24 21.5 24 15C24 8.5 20.5 4 16 4Z" fill="url(#footerAvoGrad)" stroke="#A7F3D0" strokeWidth="1" strokeOpacity="0.4" />
+                  <path d="M16 11.5C16 11.5 12.8 16 12.8 18.2C12.8 19.97 14.23 21.4 16 21.4C17.77 21.4 19.2 19.97 19.2 18.2C19.2 16 16 11.5 16 11.5Z" fill="url(#footerGoldDrop)" />
+                  <circle cx="14.8" cy="17" r="0.9" fill="#FFF" fillOpacity="0.9" />
+                </svg>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-white flex items-center gap-1.5">
+                  KEYAVO
+                  <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                </span>
+                <span className="text-[10px] uppercase tracking-[0.2em] text-emerald-400/80 font-semibold -mt-1">
+                  Cold-Pressed Avocado Oil
+                </span>
+              </div>
             </div>
 
             <p className="text-xs sm:text-sm text-[#9BB1A4] leading-relaxed pr-4">
@@ -66,7 +86,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 2: Về Keyowa (2 cols) */}
+          {/* Column 2: Về Keyavo (2 cols) */}
           <div className="lg:col-span-2 space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-widest text-emerald-400">
               {data.colAboutTitle}

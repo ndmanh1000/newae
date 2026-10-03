@@ -71,7 +71,7 @@ export default function CartDrawer() {
   const remainingForFreeShipping = Math.max(0, freeShippingThreshold - subtotal);
 
   const applyCoupon = () => {
-    if (couponCode.trim().toUpperCase() === "KEYOWA15") {
+    if (couponCode.trim().toUpperCase() === "KEYAVO15") {
       setDiscountPercent(15);
       setCouponError("");
     } else {

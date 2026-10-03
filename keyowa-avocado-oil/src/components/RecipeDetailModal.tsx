@@ -354,14 +354,14 @@ export default function RecipeDetailModal({
                 ))}
               </div>
 
-              {/* Keyowa Avocado Oil Tip Box */}
+              {/* Keyavo Avocado Oil Tip Box */}
               <div className="bg-gradient-to-r from-emerald-950 to-[#142A1E] text-white p-5 rounded-2xl border border-emerald-800/80 shadow-md space-y-2">
                 <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-300">
                   <ShieldCheck className="w-4 h-4 text-amber-400" />
-                  <span>Vì sao nên dùng Dầu Bơ Keyowa cho món này?</span>
+                  <span>Vì sao nên dùng Dầu Bơ Keyavo cho món này?</span>
                 </div>
                 <p className="text-xs sm:text-sm text-emerald-100/90 leading-relaxed font-normal">
-                  {recipe.keyowaTip}
+                  {recipe.keyavoTip}
                 </p>
               </div>
             </div>

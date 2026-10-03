@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Điều Khoản Dịch Vụ & Mua Hàng Trực Tuyến | KEYOWA",
+  title: "Điều Khoản Dịch Vụ & Mua Hàng Trực Tuyến | KEYAVO",
   description:
-    "Các điều khoản dịch vụ, quy định giao hàng, thanh toán và hướng dẫn mua sắm dầu bơ ép lạnh chính hãng tại KEYOWA.",
+    "Các điều khoản dịch vụ, quy định giao hàng, thanh toán và hướng dẫn mua sắm dầu bơ ép lạnh chính hãng tại KEYAVO.",
   alternates: {
     canonical: "/terms",
   },
   openGraph: {
-    title: "Điều Khoản Dịch Vụ & Mua Hàng Trực Tuyến | KEYOWA",
-    description: "Quy định đặt hàng, thanh toán và giao nhận sản phẩm dầu bơ ép lạnh KEYOWA toàn quốc.",
+    title: "Điều Khoản Dịch Vụ & Mua Hàng Trực Tuyến | KEYAVO",
+    description: "Quy định đặt hàng, thanh toán và giao nhận sản phẩm dầu bơ ép lạnh KEYAVO toàn quốc.",
     url: "/terms",
   },
 };

@@ -51,7 +51,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   // Load cart from localStorage
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("keyowa_cart");
+      const saved = localStorage.getItem("keyavo_cart") || localStorage.getItem("keyowa_cart");
       if (saved) {
         setCart(JSON.parse(saved));
       }
@@ -63,7 +63,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   // Save cart to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem("keyowa_cart", JSON.stringify(cart));
+      localStorage.setItem("keyavo_cart", JSON.stringify(cart));
     } catch {
       // ignore
     }

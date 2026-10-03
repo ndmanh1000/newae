@@ -149,7 +149,7 @@ export default function TermsPage() {
             <div className="space-y-1 text-center sm:text-left">
               <h4 className="font-serif text-lg sm:text-xl font-bold text-white flex items-center justify-center sm:justify-start gap-2">
                 <Sparkles className="w-4 h-4 text-amber-400" />
-                <span>KEYOWA Fair & Transparent Shopping</span>
+                <span>KEYAVO Fair & Transparent Shopping</span>
               </h4>
               <p className="text-xs sm:text-sm text-emerald-200/80">
                 Hotline tư vấn: <strong className="text-white">1900 888 666</strong> • Hỗ trợ đơn hàng 24/7

@@ -37,7 +37,7 @@ export default function RecipeEbookModal({ isOpen, onClose }: RecipeEbookModalPr
       // Simulate download trigger
       const link = document.createElement("a");
       link.href = "#";
-      link.setAttribute("download", "Keyowa-50-Cong-Thuc-Am-Thuc-5-Sao.pdf");
+      link.setAttribute("download", "Keyavo-50-Cong-Thuc-Am-Thuc-5-Sao.pdf");
     }, 1200);
   };
 
@@ -138,7 +138,7 @@ export default function RecipeEbookModal({ isOpen, onClose }: RecipeEbookModalPr
                 Đã gửi E-Book tới email của bạn!
               </h3>
               <p className="text-xs sm:text-sm text-[#506357] max-w-md mx-auto leading-relaxed">
-                Vui lòng kiểm tra hòm thư <strong className="text-emerald-800">{email}</strong> để tải về trọn bộ PDF 50+ công thức ẩm thực chuẩn sao Michelin cùng mã ưu đãi <strong>KEYOWA15</strong>.
+                Vui lòng kiểm tra hòm thư <strong className="text-emerald-800">{email}</strong> để tải về trọn bộ PDF 50+ công thức ẩm thực chuẩn sao Michelin cùng mã ưu đãi <strong>KEYAVO15</strong>.
               </p>
             </div>
             <button

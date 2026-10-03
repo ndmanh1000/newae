@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://keyowa.vn";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://keyavo.vn";
   const currentDate = new Date().toISOString();
 
   return [

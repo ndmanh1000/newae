@@ -2,8 +2,8 @@ import { Product } from "@/context/CartContext";
 
 export const PRODUCTS: Product[] = [
   {
-    id: "keyowa-500ml",
-    name: "Keyowa Avocado Extra Virgin 500ml",
+    id: "keyavo-500ml",
+    name: "Keyavo Avocado Extra Virgin 500ml",
     tagline: "Chuyên dụng cho áp chảo, chiên xào nhiệt độ cao & làm sốt salad chuẩn nhà hàng.",
     badge: "BÁN CHẠY NHẤT",
     badgeColor: "bg-coral text-white",
@@ -23,7 +23,7 @@ export const PRODUCTS: Product[] = [
     ],
   },
   {
-    id: "keyowa-dropper-100ml",
+    id: "keyavo-dropper-100ml",
     name: "Chai Mini Dropper 100ml (Ăn dặm & Skincare)",
     tagline: "Giàu Omega-9 và Vitamin E tự nhiên nuôi dưỡng làn da, thích hợp cho trẻ ăn dặm.",
     badge: "ORGANIC 100%",
@@ -44,8 +44,8 @@ export const PRODUCTS: Product[] = [
     ],
   },
   {
-    id: "keyowa-baby-250ml",
-    name: "Keyowa Kids & Baby Virgin 250ml",
+    id: "keyavo-baby-250ml",
+    name: "Keyavo Kids & Baby Virgin 250ml",
     tagline: "Dinh dưỡng phát triển trí não và chiều cao cho bé từ 6 tháng tuổi. Hương vị thanh dịu dễ ăn.",
     badge: "CHUYÊN CHO BÉ",
     badgeColor: "bg-[#FFF4E5] text-[#B76E00]",
@@ -65,7 +65,7 @@ export const PRODUCTS: Product[] = [
     ],
   },
   {
-    id: "keyowa-giftset",
+    id: "keyavo-giftset",
     name: "Bộ Hộp Quà Gourmet Chef Gift Set",
     tagline: "Bộ sưu tập 3 dòng dầu hảo hạng trong hộp gỗ sang trọng, tặng kèm ebook 50 công thức bếp sao.",
     badge: "QUÀ TẶNG CAO CẤP",
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     category: "gift",
     features: [
       "Hộp gỗ sang trọng lót lụa vàng ánh kim",
-      "Bao gồm đủ 3 dòng sản phẩm biểu tượng của Keyowa",
+      "Bao gồm đủ 3 dòng sản phẩm biểu tượng của Keyavo",
       "Tặng kèm thìa gỗ đo liều lượng & sách công thức Michelin",
       "Thiệp chúc mừng khắc laser cá nhân hóa theo yêu cầu",
     ],
@@ -122,7 +122,7 @@ export const PROCESS_STEPS = [
 
 export const SMOKE_POINT_COMPARISON = [
   {
-    name: "Dầu bơ ép lạnh KEYOWA",
+    name: "Dầu bơ ép lạnh KEYAVO",
     point: 270,
     pointText: "270°C",
     width: "100%",
@@ -179,7 +179,7 @@ export const TESTIMONIALS = [
     name: "Lan Chi",
     title: "Food Blogger & Huấn luyện viên Eat-Clean",
     quote:
-      "Từ ngày chuyển sang dùng dầu bơ Keyowa, món xào và áp chảo không còn mùi khét dầu, vị bơ thơm bùi thanh nhẹ. Cả gia đình mình đều yêu thích!",
+      "Từ ngày chuyển sang dùng dầu bơ Keyavo, món xào và áp chảo không còn mùi khét dầu, vị bơ thơm bùi thanh nhẹ. Cả gia đình mình đều yêu thích!",
     image: "/images/story-eatclean.webp",
     tag: "ẨM THỰC EAT-CLEAN",
   },
@@ -197,7 +197,7 @@ export const TESTIMONIALS = [
     name: "Chef Hoàng Tùng",
     title: "Bếp trưởng & Giám khảo Ẩm thực",
     quote:
-      "Để có lớp vỏ steak giòn caramel hoàn hảo mà bên trong vẫn mềm mọng nước, điểm khói 270°C của Keyowa là vũ khí bí mật số một của gian bếp chúng tôi.",
+      "Để có lớp vỏ steak giòn caramel hoàn hảo mà bên trong vẫn mềm mọng nước, điểm khói 270°C của Keyavo là vũ khí bí mật số một của gian bếp chúng tôi.",
     image: "/images/story-chef.webp",
     tag: "BẾP NHÀ HÀNG 5 SAO",
   },

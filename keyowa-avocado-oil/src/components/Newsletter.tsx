@@ -19,7 +19,7 @@ export default function Newsletter() {
   };
 
   const copyCode = () => {
-    navigator.clipboard.writeText("KEYOWA15");
+    navigator.clipboard.writeText("KEYAVO15");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -60,7 +60,7 @@ export default function Newsletter() {
                 </div>
                 <div className="flex items-center justify-center gap-3">
                   <span className="font-mono text-xl font-extrabold text-coral bg-white px-4 py-2 rounded-xl border border-coral/30 tracking-wider">
-                    KEYOWA15
+                    KEYAVO15
                   </span>
                   <button
                     onClick={copyCode}

@@ -21,7 +21,7 @@ export default function ChefCollectionSection() {
 
   // The 2 flagship Chef products
   const chefProducts = PRODUCTS.filter(
-    (p) => p.id === "keyowa-extra-virgin-500ml" || p.id === "keyowa-giftset"
+    (p) => p.id === "keyavo-500ml" || p.id === "keyavo-giftset"
   );
 
   return (

@@ -21,7 +21,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("keyowa_language") as Language;
+      const saved = (localStorage.getItem("keyavo_language") || localStorage.getItem("keyowa_language")) as Language;
       if (saved && (saved === "vi" || saved === "en" || saved === "ja" || saved === "zh")) {
         setLanguageState(saved);
       }
@@ -33,7 +33,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
     try {
-      localStorage.setItem("keyowa_language", lang);
+      localStorage.setItem("keyavo_language", lang);
     } catch {
       // ignore
     }

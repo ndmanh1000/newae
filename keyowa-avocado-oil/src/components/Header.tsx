@@ -204,17 +204,38 @@ export default function Header() {
               <a
                 href="#"
                 onClick={handleLogoClick}
-                className="flex flex-col group cursor-pointer select-none"
-                title="KEYOWA - Về đầu trang"
+                className="flex items-center gap-2 sm:gap-2.5 group cursor-pointer select-none"
+                title="KEYAVO - Về đầu trang"
                 aria-label="Về đầu trang"
               >
-                <span className="font-serif text-lg sm:text-2xl lg:text-2xl xl:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
-                  KEYOWA
-                  <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-600 flex-shrink-0"></span>
-                </span>
-                <span className="text-[7.5px] sm:text-[9.5px] xl:text-[10px] uppercase tracking-[0.08em] sm:tracking-[0.18em] text-[#697E72] font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
-                  Cold-Pressed Avocado Oil
-                </span>
+                {/* Brand Logo Emblem */}
+                <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-br from-[#1A3B2B] via-[#122A1E] to-[#0A1A12] border border-emerald-600/40 shadow-sm flex items-center justify-center flex-shrink-0 group-hover:scale-105 group-hover:border-emerald-500/60 transition-all duration-300">
+                  <svg className="w-5 h-5 sm:w-5.5 sm:h-5.5" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="headerAvoGrad" x1="6" y1="4" x2="26" y2="28" gradientUnits="userSpaceOnUse">
+                        <stop stopColor="#34D399" />
+                        <stop offset="0.5" stopColor="#059669" />
+                        <stop offset="1" stopColor="#064E3B" />
+                      </linearGradient>
+                      <linearGradient id="headerGoldDrop" x1="16" y1="12" x2="16" y2="24" gradientUnits="userSpaceOnUse">
+                        <stop stopColor="#FDE047" />
+                        <stop offset="1" stopColor="#D97706" />
+                      </linearGradient>
+                    </defs>
+                    <path d="M16 4C11.5 4 8 8.5 8 15C8 21.5 11.5 27 16 27C20.5 27 24 21.5 24 15C24 8.5 20.5 4 16 4Z" fill="url(#headerAvoGrad)" stroke="#A7F3D0" strokeWidth="1" strokeOpacity="0.4" />
+                    <path d="M16 11.5C16 11.5 12.8 16 12.8 18.2C12.8 19.97 14.23 21.4 16 21.4C17.77 21.4 19.2 19.97 19.2 18.2C19.2 16 16 11.5 16 11.5Z" fill="url(#headerGoldDrop)" />
+                    <circle cx="14.8" cy="17" r="0.9" fill="#FFF" fillOpacity="0.9" />
+                  </svg>
+                </div>
+                <div className="flex flex-col">
+                  <span className="font-serif text-lg sm:text-2xl lg:text-2xl xl:text-3xl font-bold tracking-tight text-[#1B3B2B] group-hover:text-emerald-900 transition-colors flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                    KEYAVO
+                    <span className="inline-block w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-emerald-600 flex-shrink-0"></span>
+                  </span>
+                  <span className="text-[7.5px] sm:text-[9.5px] xl:text-[10px] uppercase tracking-[0.14em] text-[#697E72] font-semibold -mt-0.5 sm:-mt-1 whitespace-nowrap">
+                    Cold-Pressed Avocado Oil
+                  </span>
+                </div>
               </a>
             </div>
 

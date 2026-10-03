@@ -3,6 +3,8 @@ import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/context/CartContext";
 import { LanguageProvider } from "@/context/LanguageContext";
+import CustomerSupportChat from "@/components/CustomerSupportChat";
+import LiveSalesNotification from "@/components/LiveSalesNotification";
 
 const sans = Plus_Jakarta_Sans({
   subsets: ["latin", "vietnamese"],
@@ -16,20 +18,20 @@ const serif = Playfair_Display({
   display: "swap",
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://keyowa.vn";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://keyavo.vn";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "KEYOWA | Dầu Bơ Ép Lạnh Nguyên Chất Điểm Khói 270°C",
-    template: "%s | KEYOWA Avocado Oil",
+    default: "KEYAVO | Dầu Bơ Ép Lạnh Nguyên Chất Điểm Khói 270°C",
+    template: "%s | KEYAVO Avocado Oil",
   },
   description:
     "Dầu bơ nguyên chất 100% bơ Hass Đắk Lắk ép lạnh dưới 40°C. Điểm khói kỷ lục 270°C an toàn tuyệt đối cho chiên xào nhiệt độ cao & chuẩn vị bếp sao. Giàu Omega-9 và vitamin E tự nhiên.",
   keywords: [
     "dầu bơ",
     "dầu bơ ép lạnh",
-    "keyowa",
+    "keyavo",
     "dầu ăn điểm khói cao",
     "dầu bơ 270 độ",
     "dầu bơ đắk lắk",
@@ -38,18 +40,18 @@ export const metadata: Metadata = {
     "dầu ăn eat clean",
     "dầu ăn keto",
   ],
-  authors: [{ name: "KEYOWA Vietnam" }],
-  creator: "KEYOWA",
-  publisher: "KEYOWA Vietnam",
+  authors: [{ name: "KEYAVO Vietnam" }],
+  creator: "KEYAVO",
+  publisher: "KEYAVO Vietnam",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "KEYOWA - Giọt Vàng Thượng Hạng Cho Ẩm Thực Nhiệt Độ Cao",
+    title: "KEYAVO - Giọt Vàng Thượng Hạng Cho Ẩm Thực Nhiệt Độ Cao",
     description:
       "100% Bơ Hass Đắk Lắk tuyển chọn, ép lạnh cơ học dưới 40°C. Điểm khói 270°C vượt trội bảo vệ sức khỏe gia đình.",
     url: baseUrl,
-    siteName: "KEYOWA Avocado Oil",
+    siteName: "KEYAVO Avocado Oil",
     locale: "vi_VN",
     type: "website",
     images: [
@@ -57,17 +59,17 @@ export const metadata: Metadata = {
         url: "/images/hero-bottle.webp",
         width: 1200,
         height: 630,
-        alt: "Chai Dầu Bơ Ép Lạnh Nguyên Chất KEYOWA",
+        alt: "Chai Dầu Bơ Ép Lạnh Nguyên Chất KEYAVO",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "KEYOWA | Dầu Bơ Ép Lạnh Nguyên Chất Điểm Khói 270°C",
+    title: "KEYAVO | Dầu Bơ Ép Lạnh Nguyên Chất Điểm Khói 270°C",
     description:
       "100% Bơ Hass Đắk Lắk ép lạnh dưới 40°C. Điểm khói kỷ lục 270°C bảo vệ sức khỏe gia đình.",
     images: ["/images/hero-bottle.webp"],
-    creator: "@keyowa_vn",
+    creator: "@keyavo_vn",
   },
   robots: {
     index: true,
@@ -88,7 +90,7 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": `${baseUrl}/#organization`,
-      name: "KEYOWA",
+      name: "KEYAVO",
       url: baseUrl,
       logo: `${baseUrl}/images/hero-bottle.webp`,
       description:
@@ -101,16 +103,16 @@ const jsonLd = {
         availableLanguage: ["Vietnamese", "English"],
       },
       sameAs: [
-        "https://facebook.com/keyowa.vietnam",
-        "https://instagram.com/keyowa.oil",
-        "https://tiktok.com/@keyowaofficial",
+        "https://facebook.com/keyavo.vietnam",
+        "https://instagram.com/keyavo.oil",
+        "https://tiktok.com/@keyavoofficial",
       ],
     },
     {
       "@type": "WebSite",
       "@id": `${baseUrl}/#website`,
       url: baseUrl,
-      name: "KEYOWA | Dầu Bơ Ép Lạnh Nguyên Chất",
+      name: "KEYAVO | Dầu Bơ Ép Lạnh Nguyên Chất",
       publisher: {
         "@id": `${baseUrl}/#organization`,
       },
@@ -138,7 +140,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-[#FAF8F5] text-[#1B2921] font-sans antialiased selection:bg-forest-700 selection:text-white">
         <LanguageProvider>
-          <CartProvider>{children}</CartProvider>
+          <CartProvider>
+            {children}
+            <LiveSalesNotification />
+            <CustomerSupportChat />
+          </CartProvider>
         </LanguageProvider>
       </body>
     </html>

@@ -116,10 +116,10 @@ export default function PrivacyPage() {
             <div className="space-y-1 text-center sm:text-left">
               <h4 className="font-serif text-lg sm:text-xl font-bold text-white flex items-center justify-center sm:justify-start gap-2">
                 <Sparkles className="w-4 h-4 text-amber-400" />
-                <span>KEYOWA Quality & Privacy Assurance</span>
+                <span>KEYAVO Quality & Privacy Assurance</span>
               </h4>
               <p className="text-xs sm:text-sm text-emerald-200/80">
-                Hotline 24/7: <strong className="text-white">1900 888 666</strong> • Email: <strong className="text-white">lienhe@keyowa.vn</strong>
+                Hotline 24/7: <strong className="text-white">1900 888 666</strong> • Email: <strong className="text-white">lienhe@keyavo.vn</strong>
               </p>
             </div>
 

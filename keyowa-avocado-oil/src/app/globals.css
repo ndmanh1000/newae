@@ -135,3 +135,18 @@ html {
   animation: float-mote 7s ease-in-out infinite 4s;
 }
 
+/* 4-Second Live Sales Notification Progress Bar */
+@keyframes live-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-live-progress {
+  animation: live-progress 4000ms linear forwards;
+}
+
+

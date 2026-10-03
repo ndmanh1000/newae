@@ -82,7 +82,7 @@ export default function GuaranteePage() {
           <div className="space-y-6">
             <h3 className="font-serif text-2xl font-bold text-[#142A1E] flex items-center gap-2">
               <Sparkles className="w-5 h-5 text-amber-500" />
-              <span>5 Tiêu Chuẩn Vàng Keyowa</span>
+              <span>5 Tiêu Chuẩn Vàng Keyavo</span>
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

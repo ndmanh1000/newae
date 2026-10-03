@@ -97,6 +97,7 @@ export default function ChefCollectionSection() {
                         src={product.image}
                         alt={displayName}
                         fill
+                        sizes="(max-width: 768px) 100vw, 400px"
                         className="object-contain p-3 group-hover:scale-105 transition-transform duration-300"
                       />
                       <div className="absolute top-3 left-3 bg-[#142A1E] text-amber-300 text-[11px] font-bold px-2.5 py-1 rounded-full">
@@ -176,6 +177,7 @@ export default function ChefCollectionSection() {
                   src="/images/story-chef.webp"
                   alt={data.chefName}
                   fill
+                  sizes="56px"
                   className="object-cover"
                 />
               </div>

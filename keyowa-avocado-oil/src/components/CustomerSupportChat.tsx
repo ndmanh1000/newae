@@ -362,6 +362,7 @@ export default function CustomerSupportChat() {
                   src="/images/story-skincare.webp"
                   alt="Thu Hà - Chuyên viên Dinh dưỡng KEYAVO"
                   fill
+                  sizes="40px"
                   className="object-cover"
                 />
                 <span className="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-400 border-2 border-[#142A1E]" />

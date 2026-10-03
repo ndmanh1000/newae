@@ -375,6 +375,7 @@ export default function RecipeDetailModal({
                   src={recipe.recommendedProductImage}
                   alt={recipe.recommendedProductName}
                   fill
+                  sizes="(max-width: 640px) 64px, 80px"
                   className="object-contain"
                 />
               </div>

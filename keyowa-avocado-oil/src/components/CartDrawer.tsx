@@ -226,6 +226,7 @@ export default function CartDrawer() {
                             src={item.product.image}
                             alt={displayName}
                             fill
+                            sizes="(max-width: 640px) 72px, 84px"
                             className="object-contain p-1"
                           />
                         </div>

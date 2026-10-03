@@ -28,6 +28,7 @@ export default function Toast() {
                 src={productImage}
                 alt={productName}
                 fill
+                sizes="44px"
                 className="object-contain p-0.5"
               />
             </div>

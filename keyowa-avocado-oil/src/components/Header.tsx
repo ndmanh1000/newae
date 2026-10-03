@@ -427,6 +427,7 @@ export default function Header() {
                                 src={baseProduct.image}
                                 alt={item.name}
                                 fill
+                                sizes="48px"
                                 className="object-contain"
                               />
                             </div>
@@ -499,6 +500,7 @@ export default function Header() {
                                 src={baseProduct.image}
                                 alt={item.name}
                                 fill
+                                sizes="40px"
                                 className="object-contain"
                               />
                             </div>

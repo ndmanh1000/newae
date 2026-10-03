@@ -58,6 +58,7 @@ export default function ProductQuickView() {
               src={localizedProduct.image}
               alt={localizedProduct.name}
               fill
+              sizes="(max-width: 768px) 100vw, 350px"
               className="object-contain p-6"
             />
             <div
